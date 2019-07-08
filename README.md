@@ -1,0 +1,2 @@
+# MediaTechProject2019
+Developers: must determine the best strategy of modifying the template and pairing a CMS (content management system) to match the existing template. Developers must also plan sprints for the duration of the project.In this project, your group will collaborate to analyze, organize, and execute a design/development plan for a new Media Tech Program webpage that will effectively demonstrate the program and its offering. 
