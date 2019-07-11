@@ -1,5 +1,3 @@
-
-
 $(document).ready(function($){
     var parPosition = [];
   $('.par').each(function() {
@@ -44,7 +42,6 @@ $('.vNav ul li a').removeClass('active');
           $(this).addClass('active');
   });   
 });
-
 
 
 function showDiv(id, collapse1, collapse2, collapse3) {
