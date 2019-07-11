@@ -1,0 +1,295 @@
+div.brand-display-page .brand-bg-grey,  
+{
+	background-color:#8E9095;
+}
+div.brand-display-page .brand-bg-green:hover  
+{
+	background-color:#59A63F;
+}
+div.brand-display-page .brand-bg-blue:hover  
+{
+	background-color:#009DD6;
+}
+div.brand-display-page .brand-bg-tomato:hover  
+{
+	background-color:#F36A30;
+}
+div.brand-display-page a img {
+	width:100%;
+}
+div.brand-display-page .brand-bg-lgray:hover  
+{
+	background-color:#876EAF;
+}
+div.brand-display-page .brand-col-sep .views-field{
+	margin-top:2%;
+	margin-bottom:2%;
+}
+div.brand-display-page ul.pager{
+		text-align:center;
+		margin-top:1%;
+}
+div.brand-display-page ul.pager li{
+	    list-style: none;
+}
+div.brand-display-page ul.pager a.button{
+		background-color:#EEEEEE;
+		background-image:none;
+		border-radius:0;
+		padding:1%;		
+		color:#E7E6EB;
+}
+div.brand-display-page ul.pager a.button:hover{
+		background-color:#00AFF0;
+}
+
+div.brand-dashboard-display {
+ position: relative;
+}
+div.brand-dashboard-left{
+    position: absolute;
+    top: 40%;
+    margin-left: 5%;
+}
+div.brand-dashboard-display div.banner-dashboard-img img{
+	width:100%;
+}
+div.brand-display-page div.brand-col-sep{display:none;}
+div.brand-display-page .brand-contentload-button{
+	text-align:center;
+	margin-top:3%;
+	margin-bottom:3%;
+	@include media-breakpoint-down(md){
+		margin-top:45px;
+	}
+}
+div.brand-display-page .brand-contentload-button #showLess{
+	display:none;
+	/*padding:1%;		
+	color:#A7A9Ac;
+	background-color:#EEEEEE;
+	cursor:pointer;
+	width:25%;
+	margin-left:40%;*/
+	color: #fff;
+    background-color: #009DD6;
+    cursor: pointer;
+    width: 145px;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+	font-family: $font-SourceSans-Semibold; 
+	i {
+		margin-left:10px;
+	}
+	@include media-breakpoint-down(md){
+		width: 130px;
+		height: 45px;
+		line-height: 45px;
+	}
+}
+div.brand-display-page .brand-contentload-button #loadMore{
+	/*padding:1%;		
+	color:#929599;
+	background-color:#009DD6;
+	cursor:pointer;
+	width:25%;
+	margin-left:40%;*/
+	color: #fff;
+    background-color: #009DD6;
+    cursor: pointer;
+    width: 145px;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+	font-family: $font-SourceSans-Semibold; 
+	i {
+		margin-left:10px;
+		font-weight: bold;
+	}
+	@include media-breakpoint-down(md){
+		width: 130px;
+		height: 45px;
+		line-height: 45px;
+	}
+}
+div.brand-display-page .brand-contentload-button div#loadMore:hover, div.brand-display-page .brand-contentload-button div#showLess:hover{
+	background-color:#009DD6;
+	color:#fff;
+}
+.text-green{
+	color: #71C15B;
+}
+div.brand-page-cont {
+	h2 {
+		font-size: 40px;
+		color: #2a2a2a;
+		font-family: "sharpSans-Bold";
+		line-height: 46px;
+	}
+	p {
+		font-size: 18px;
+		color: #2a2a2a;
+		margin-top: 10px;
+		font-family: $font-SourceSans-Regular;
+		line-height: 30px;
+		@include media-breakpoint-down(md) {
+			line-height: 35px;
+		}
+	}
+}
+body.path-brands div.brand-page-cont {
+	@include media-breakpoint-down(md) {
+		padding: 0 20px;
+	}
+}
+body.path-brands h1.title{
+	color: #71C15B;
+}
+
+div.brand-display-page .brand-contentload-button #loadMore::after {
+    /*content: "\2193";
+    display: inline-block; 
+	margin-left: 1rem;	*/
+}
+div.brand-display-page .brand-contentload-button #showLess::after {
+    /*content: "\2191";
+    display: inline-block; 
+	margin-left: 1rem;	*/
+}
+body.path-brands #block-nbcucareers-content{
+	display:none;
+}
+body.path-brands .brand-title {
+	.side-title{
+		font-family:$font-sharpSans-Semibold;
+		font-size: 23px;
+		line-height: 34px;
+		@include media-breakpoint-down(md) {
+			font-size: 20px;
+		}
+	}
+	.title-border {
+	    border-bottom: 6px solid #59A63F;
+		width:75px;
+		@include media-breakpoint-down(md) {
+			margin-bottom: 20px;
+		}
+	}
+}
+body.path-brands .body-subtitle {
+	font-family:$font-sharpSans-Book;
+	font-size: 40px;
+    line-height: 46px;
+	@include media-breakpoint-down(md){
+		font-size: 26px;
+		line-height: 36px;
+	}
+}
+body.path-brands .brand-title {
+	clear: both;
+}
+.path-brands {
+	#main-wrapper {
+		background-image:url("../images/svg/culture_text_bg_grey.png");
+		background-size: auto;
+		background-position: right 0% bottom 0%;
+		background-repeat: no-repeat;
+		padding-bottom: 53px;
+	}
+	.site-footer {
+		margin-top: 0px !important;
+	}
+	.featured-top {
+		margin-bottom: 32px;
+		/*.cd-words-wrapper {
+			min-height:192px;
+			height:192px;
+			@include media-breakpoint-down(sm) {
+				min-height:140px;
+				height:140px;
+			}
+		}*/
+	}
+	.site-footer {
+		margin-top:53px;
+	}
+	.brand-header {
+		> div:nth-child(2) {
+			padding:0px;
+		}
+	}
+	#main-wrapper {
+		.container-fluid {
+			.container-fluid-lg {padding:0px;}
+			.tt-view-brands:nth-child(2) {
+				.view-content.row {
+					> div {
+						width:100%;
+					}
+					padding:0 15px;
+					.row.brand-header {
+						> div:first-child {
+							padding:0px;
+						}
+					}
+				}
+			}
+			.tt-view-brands:nth-child(3) {
+				margin-top:40px;
+				.view-content {
+					margin-left: -27px;
+					margin-right: -24px;
+					> div {
+						padding:3.5px 10px;
+						.brand-bg-grey {
+							min-height:290px;
+							-webkit-transition-duration: 0.3s;
+							-o-transition-duration: 0.3s;
+							transition-duration: 0.3s;
+							-webkit-transition-property: color, background-color;
+							-o-transition-property: color, background-color;
+							transition-property: color, background-color;
+							@include media-breakpoint-down(lg) {
+								min-height:230px;
+							}
+							@include media-breakpoint-down(md) {
+								min-height:150px;
+							}
+							@include media-breakpoint-down(sm) {
+								min-height:160px;
+							}
+							@include media-breakpoint-down(sm) {
+								min-height:130px;
+							}
+							
+							
+						}
+					}
+				} 
+			}
+		}
+	}
+}
+@media screen and (max-width: 1280px) { 
+	.path-brands {
+		#main-wrapper {
+			.container-fluid {
+				.tt-view-brands:nth-child(3) {
+					.view-content {
+						margin-left: 0px;
+						margin-right: 0px;
+					}
+					.views-element-container.col-auto {
+						padding:0px 5px;
+					}
+				}
+				.tt-view-brands:nth-child(2) .view-content.row .row.brand-header > div:first-child {
+					padding-left:15px;
+				}
+			}
+		}
+	}
+}

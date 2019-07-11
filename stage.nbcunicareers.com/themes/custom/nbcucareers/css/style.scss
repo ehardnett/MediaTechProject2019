@@ -1,0 +1,177 @@
+/* 
+Theme Name: Bootstrap 4 Sass
+Description: Bootstrap 4 with Sass
+*/
+
+// import files
+@import "import";
+
+/* GENERAL STYLES
+-------------------------------------------------*/
+
+body {
+	font-family: $font-SourceSans-Regular; 
+    background: #FFFFFF !important;
+}
+/* body.modal-open {
+	padding-right: 0px !important;
+} */
+
+.navbar-collapse {
+	font-family: $font-sharpSans-Semibold;
+}
+/* COLORS 
+--------------------------------------------------*/
+
+a {
+    color: #2A2A2A;
+}
+.btn {
+	font-size: 18px;
+	border-radius: 0px;
+}
+.bg-inverse {
+    background: $primary-shade !important;
+}
+
+.site-footer {
+    background: #EEEEEE	 !important;
+	margin-top: 80px;
+}
+.styles_overlay__CLSq-, .modal-backdrop{
+	    background: rgba(255, 255, 255, 0.9);
+}
+@include media-breakpoint-down(lg) {
+	.styles_overlay__CLSq-{
+		padding: 2.2rem;
+	}
+}
+
+.mobile_logo_small {
+	display:none;
+}
+
+.menu--main li a {
+    color: $primary-shade; 
+}
+
+.menu--account li a {
+    color: $primary-shade;
+}
+
+.site-name-slogan a {
+    text-decoration: none;
+}
+
+.card-group img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.card-group .field--type-image {
+    margin: 0
+}
+
+.slick {
+    width: 100%;
+}
+
+.slick>div {
+    margin: 0 15px;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+.extra-width{
+    max-width: 1440px;
+}
+.header, .highlighted, .featured-top, #main-wrapper, .container-fluid-xl{
+	 //max-width: 1440px;
+	 margin: 0 auto;
+}
+.container-fluid-xl {
+	max-width: 1440px;
+}
+.featured-top {
+	margin-bottom: 55px;
+}
+.site-footer .container-fluid , .container-fluid-lg{
+	 max-width: 1240px;
+	 margin: 0 auto;
+	 padding: 0px;
+	 @include media-breakpoint-down(lg) {
+		padding: 0px 20px;
+	 }
+}
+.container-fluid-md {
+	 max-width: 991px;
+	 margin: 0 auto;
+	 padding: 20px;
+}
+#main-wrapper .container-fluid {
+	padding: 0px;
+}
+#main-wrapper .container-fluid  > .row {
+	margin: 0px;
+}
+.text-heading {
+	color: #009DD6;
+}
+.text-black {
+	color: #000000;
+}
+.video-thumbnail {
+  position: relative;
+  cursor: pointer;
+  &:before {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    content: url('../images/svg/Icon_Video.svg');
+    width: 75px;
+    color: #fff;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  }
+  &:hover:before {
+    color: #eee;
+  }
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    text-align: center;
+    line-height: 30px;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    display: none;
+}
+#back-to-top.show {
+    @include media-breakpoint-down(md) {
+		display: block;
+	}
+}
+.btn-light.disabled, .btn-light:disabled {
+    color: #FFFFFF;
+    background-color: #929599;
+}
+
+.video-js:not(.vjs-fullscreen).vjs-layout-tiny .vjs-subs-caps-button, 
+.video-js:not(.vjs-fullscreen).vjs-layout-x-small:not(.vjs-live) .vjs-subs-caps-button, 
+.video-js:not(.vjs-fullscreen).vjs-layout-x-small:not(.vjs-liveui) .vjs-subs-caps-button {
+	display: block !important;
+}
+.vjs-layout-tiny .vjs-menu-button-popup .vjs-menu .vjs-menu-content, .vjs-layout-x-small .vjs-menu-button-popup .vjs-menu .vjs-menu-content {
+	max-height: 14em;
+}

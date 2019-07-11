@@ -1,0 +1,36 @@
+.node--type-page {
+	h1.page-title {
+		margin-top: 90px;
+		font-family: $font-sharpSans-Book;
+		text-align: center;
+		font-size: 40px;
+		color: #2a2a2a;
+		padding: 0 0 25px 0;
+	}
+	ol.terms_conditions {
+		margin-top: 60px;
+		font-family: $font-SourceSans-Regular;
+		font-size: 20px;
+		color: #009DD6;
+		padding-left: 20px;
+	}
+	p.title, h2.title {
+		font-family:$font-sharpSans-Semibold;
+		font-size: 24px;
+		color: #2a2a2a;
+		padding-bottom: 30px;
+		line-height: 24px;
+		font-weight: normal;
+	}
+	.font-blue {
+		color: #009DD6 !important;
+	}
+	.basic-page p {
+		font-size:18px;
+	}
+}
+.path-nbcuniversal-careers-terms-use {
+	h1.page-title {
+		text-align: left;
+	}
+}

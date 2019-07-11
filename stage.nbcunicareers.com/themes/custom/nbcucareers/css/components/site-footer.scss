@@ -1,0 +1,250 @@
+/**
+ * @file
+ * Footer Styling.
+ */
+
+.site-footer {
+    padding: 1.4rem 0 1.9rem 0;
+    .layout-container {
+        padding: 0 $spacer;
+    }
+	.nav-item .nav-link, .menu--account .nav-link, #block-footermenu4 .nav-link {
+		color: #2A2A2A;
+		padding: 0 20px 0 0;
+		font-size: 15px;
+	}
+}
+#block-footersocialicons {
+	@include media-breakpoint-down(md) {
+		padding: 0px;
+	}
+	ul.nav {
+		padding-left:13.5px;
+		li {
+			margin:7.5px !important;
+			margin-top:16px !important;
+		}
+	}
+}
+
+#block-footerlogotagline {
+	-webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+	.content {
+		float:right;
+		@include media-breakpoint-down(lg) {
+			float:left;
+		}
+		img {
+			width: 190px;
+			height: 55px;
+			float:right;
+			@include media-breakpoint-down(md) {
+				float:none;
+				margin-left:10px;
+			}
+		}
+	}
+}
+#block-useraccountmenu, #block-footermenu4{
+	float: right;
+    width: 35.7%;
+	padding-top:10px;
+	ul.nav {
+		float:right;
+		a[href] {
+			overflow: hidden;
+			background-position: left 6px !important;
+			background-size: 1.5rem !important;
+			padding-left: 34px;
+			padding-bottom: 3px;
+			padding-top: 6px;
+			padding-right: 0px;
+		}
+		.nav-item-help:before {
+			background: url(../images/svg/Icon_Help.svg) no-repeat;
+			width: 24px;
+			height: 24px;
+			content: "";
+			display: block;
+			float: left;
+			margin: 0 13px;
+			@include media-breakpoint-down(md) {
+				margin-left: 0px;
+			}
+		}
+		.nav-item-help {
+			@include media-breakpoint-down(md) {
+				padding-left: 0px !important;
+			}
+		}
+		.nav-item-candidate-zone:before {
+			background: url(../images/svg/Icon_Account.svg) no-repeat;
+			width: 24px;
+			height: 24px;
+			content: "";
+			display: block;
+			float: left;
+			margin: 0 10px;
+		}
+	}
+}
+.Google, .Instagram, .Linkedin, .Facebook, .Twitter {
+	width:24px;
+	height:24px;
+}
+/* Footer Top Styling. */
+
+.site-footer__top .content {
+    margin-top: 0;
+}
+
+.site-footer__bottom img {height:21px;}
+/* Footer Bottom Styling. */
+
+.site-footer__bottom .block {
+    margin: ($spacer / 2) 0;
+}
+
+.site-footer__bottom .content {
+    padding: ($spacer / 2) 0;
+    margin-top: 0;
+}
+
+.region-footer-third {
+	border-bottom: 1px solid gray;
+	padding-bottom: 1.5px;
+}
+
+.region-footer-fourth, .region-footer-fifth {
+	padding-top: 15px;
+}
+.region-footer-fifth a.navbar-brand {padding-left:0px !important}
+
+.menu--footer-social-icons {
+	h2{
+		font-size: 15px;
+		font-weight: bold;
+		color: #2A2A2A;
+		margin-top: 1rem;
+		font-family: $font-SourceSans-Bold; 
+		margin-bottom:15px;
+		font-weight: normal;
+	}
+	.nav-item {
+		margin: 1rem;
+		.nav-link {
+			padding: 0;
+		}
+	}
+}
+@include media-breakpoint-up(lg) {
+	#block-footerlogotagline {
+		flex: 0 0 19%;
+		max-width: 19%;
+	}
+	#block-nbcucareers-footer {
+		flex: 0 0 56%;
+		max-width: 56%;
+	}
+}
+
+
+@media only screen and (max-width: 961px){
+	.region-footer-third {
+		border-bottom:none;
+		padding:0px 20px;
+	}
+	.region-footer-fourth {
+		border-bottom:1px solid #ccc;
+		padding:0px 20px;
+	}
+	.Google, .Instagram, .Linkedin, .Facebook, .Twitter {
+		width: 40px;
+		height: 40px;
+	}
+	#block-useraccountmenu, #block-footermenu4 {
+		float: left;
+		width: 100%;
+	}
+	#block-useraccountmenu ul.nav, #block-footermenu4  ul.nav{
+		float: left;
+	}
+	.site-footer__top {position:static}
+	.site-footer .container-fluid {position:relative}
+	#block-nbcucareers-footer {
+		padding: 35px 0px 11px 0px;
+	}
+	.region-footer-fourth, .region-footer-fifth {
+		padding-top: 23px;
+	}
+	.site-footer__bottom img {
+		width: 220px;
+	}
+	#block-useraccountmenu,  #block-footermenu4 {
+		float: left;
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		bottom: -77px;
+		padding-left: 20px;
+		background: #eee;
+		ul.nav a[href] {
+			overflow: hidden;
+			background-position: left 6px !important;
+			-webkit-background-size: 1.5rem 1.5rem !important;
+			background-size: 40px !important;
+			padding-left: 54px;
+			padding-bottom: 16px;
+			padding-top: 19px;
+		}
+	}
+	#block-footersocialicons ul.nav li {
+		margin: 12.5px !important;
+		margin-top: 8px !important;
+	}
+	.region-footer-fifth a {padding-left:20px}
+	#block-nbcucareers-footer ul.nav {padding-right:0px}
+	#block-footerlogotagline .content {
+		float: none;
+		margin-left: -10px;
+		margin-top: 35px;
+	}
+	#block-nbcucareers-footer ul.nav li a {padding:1rem 0rem}
+	.region-footer-fourth {
+		border-bottom:1px solid #ccc;
+		padding:0px 0px;
+	}
+}
+@media only screen and (max-width: 600px){
+	#block-footersocialicons ul.nav {
+		width:100%;
+		padding:0px;
+		li:first-child {
+			margin-left:15px !important
+		}
+	}
+	.site-footer {padding-top:5px}
+	.menu--footer-social-icons h2 {margin-bottom:15px;padding-left:15px}
+	.region-footer-third {
+		border-bottom:1px solid #ccc;
+		padding:0px 0px 8px 0px;
+	}
+	.region-footer-fourth, .region-footer-fifth {
+		padding-top: 13px;
+	}
+	#block-nbcucareers-footer ul.nav li a {padding:1rem 0rem}
+	.region-footer-fourth {
+		border-bottom:1px solid #ccc;
+		padding:0px;
+	}
+}
+
+@media only screen and (max-width: 380px){
+#block-footersocialicons ul.nav li {
+    margin: 5.5px !important;
+}
+}

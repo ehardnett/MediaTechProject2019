@@ -1,0 +1,39 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+//@import url(font-awesome.min.css);
+// variables
+@import "variables";
+// typography
+@import "typography";
+//bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+//material design bootstrap
+//@import "../node_modules/mdbootstrap/scss/mdb";
+// nbcucareers scss
+@import "nbcucareers";
+
+// mixins
+@import "mixins";
+// Brand Page
+@import "brand";
+// Benefits Page
+@import "benefits";
+// FAQ Page
+@import "faq";
+// Home Page
+@import "home-page";
+// Culture Page
+@import "culture";
+// career Page
+@import "career";
+// Program Page
+@import "program";
+// Location Page
+@import "location";
+
+// React Componenets
+@import "react";
+// Candidate privacy policy
+@import "privacy";
+// Baisc page
+@import "basicpage";
