@@ -1,0 +1,71 @@
+.peacock {
+  background-image: url("../images/nbclogo/peacock3.png");
+  background-size: 800px 400px;  
+  background-position: top;
+  height: 400px;
+  width: 800px;
+
+  position: relative;
+  top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+  margin: auto;
+  padding: 10;
+}
+
+#half-circle {
+  background-color: white;
+  opacity: 0;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border: 10px solid white;
+  border-bottom: 0;
+}
+
+#half-circle:hover {
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.orange_area {
+  width: 130px;
+  height: 60px;
+  transform: rotate(-37.5deg);
+  
+  position: absolute;
+  top: 120px;
+  left: 75px;
+}
+
+.red_area {
+  width: 135px;
+  height: 65px;
+  transform: rotate(-10deg);
+  
+  position: absolute;
+  top: 35px;
+  left: 235px;
+}
+.purple_area {
+  width: 150px;
+  height: 65px;
+  transform: rotate(10deg);
+  
+  position: absolute;
+  top: 32.5px;
+  right: 222.5px;
+}
+.blue_area {
+  width: 130px;
+  height: 60px;
+  transform: rotate(37.5deg);
+  
+  position: absolute;
+  top: 117.5px;
+  right: 77.5px;
+}
+
+
+
