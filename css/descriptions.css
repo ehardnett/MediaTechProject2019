@@ -1,77 +1,198 @@
 .descriptions {
-    background-size: 800px 400px; 
-    background-position: top;
-    height: 400px;
-    width: 800px;    
-    margin: auto;
+  background-size: 800px 400px; 
+  background-position: top;
+  height: 400px;
+  width: 800px;    
+  margin: auto;
 }
 
 #unique_culture, #reach, #locations, #cutting_edge {
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: 10;
-  text-align: center;
-  display: none; 
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
-  font-weight: bold; 
-  color: white;
-  padding: 5px;
-  height: 400px;
-  border-radius: 10px;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: 10;
+text-align: center;
+display: none; 
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+font-weight: bold; 
+color: white;
+padding: 5px;
+height: 400px;
+border-radius: 10px;
 }
 
 #unique_culture {
-  background-color: #F07030; 
+background-color: #F07030; 
 }
 
 #reach  {
-  background-color: #CD3E4C;
+background-color: #CD3E4C;
 }
 
 #locations {
-  background-color: #6360AA;
+background-color: #6360AA;
 }
 
 #cutting_edge  {
-  background-color: #2B89D0;
+background-color: #2B89D0;
 }
 
 .info {
-  background-color: white;
-  border-radius: 10px;
-  margin: 5px;
-  height: 310px;
-  width: 778px;
+background-color: white;
+border-radius: 10px;
+margin: 5px;
+height: 310px;
+width: 778px;
 }
 
 .tagline_left {
-  background-color: lightgrey;
-  color: black;
-  height: 310px;
-  width: 300px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+background-color: lightgrey;
+color: black;
+height: 310px;
+width: 300px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
 }
 
 .tagline_right {
-  background-color: lightgrey;
-  color: black;
-  height: 310px;
-  width: 300px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  position: relative;
-  float: right;
+background-color: lightgrey;
+color: black;
+height: 310px;
+width: 300px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+position: relative;
+float: right;
 }
 
-.tagline_center {
-  background-color: lightgrey;
-  color: black;
-  height: 200px;
-  width: 778px;
+#purple_info{
+background-color: white;
+color: black;
+height: 310px;
+width: 778px;
+position: relative;
+overflow: scroll;
+}
+
+.info-nav {
+  width: 50px;
+  height: 230px;
+  position: fixed;
+  float: left;
+}
+
+.vNav {
+  position: absolute;
+  float: left;
+  top: 20%;
+  width: 25px;
+  z-index: 9999;
+  list-style-type: none;
+}
+
+.vNav ul {
   position: relative;
-  top: 55px;
+  padding: 3px;
+  padding-left: 35%;
+}
+
+.vNav ul li{
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 35%;
+  color: rgb(113,135,133);
+}
+
+.vNav a{
+  display: block;
+  width: 8px;
+  height: 8px;
+  text-indent: -9999px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: rgb(113,135,133);
+  text-decoration: none;
+}
+
+.vNav a:hover{
+  border-radius: 50%;
+  background-color: rgb(113,135,133);
+  text-decoration: none;
+}
+
+.vNav a.active{
+  border-radius: 50%;
+  background-color: rgb(207,219,218);
+  transform: scale(1.5);
+  text-decoration: none;
+}
+
+.label {
+  position: relative;
+  right: 100%;
+  width: 100%;
+  text-align: right;
+  font-size: 1em;
+  color: rgb(113,135,133);
+  display: none;
+}
+
+#section01 {
+  position: relative;
+  top: 0%;
+}
+
+#section02 {
+  position: relative;
+  top: 70%;
+}
+
+#section03 {
+  position: relative;
+  top: 140%;
+}
+
+#section04 {
+  position: relative;
+  top: 210%;
+}
+
+#section05 {
+  position: relative;
+  top: 280%;
+}
+
+#section06 {
+  position: relative;
+  top: 350%;
+}
+
+.states {
+  position: absolute;
+  width: 700px;
+  height: 230px;
+  left: 50px;
+}
+
+.images_info {
+  float: left;
+  border: 10px solid black;
+  padding: 3px;
+  margin: 5px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  top: inherit;
+  position: relative;
+}
+
+.par {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 12px;
+  font-style: normal;
+  width: 778px;
+  height: 310px;
 }
