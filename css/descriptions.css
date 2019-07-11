@@ -14,11 +14,11 @@ left: 0;
 margin: 10;
 text-align: center;
 display: none; 
-font-family: 'Courier New', Courier, monospace;
-font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 26px;
 font-weight: bold; 
 color: white;
-padding: 5px;
+padding: 3px;
 height: 400px;
 border-radius: 10px;
 }
@@ -43,23 +43,29 @@ background-color: #2B89D0;
 background-color: white;
 border-radius: 10px;
 margin: 5px;
-height: 310px;
-width: 778px;
+height: 300px;
+width: 780px;
+color: black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+font-weight: lighter;
 }
 
 .tagline_left {
-background-color: lightgrey;
-color: black;
-height: 310px;
+background-color: #000;
+color: white;
+height: 300px;
 width: 300px;
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
+float:left;
+position: relative;
 }
 
 .tagline_right {
-background-color: lightgrey;
-color: black;
-height: 310px;
+background-color: #000;
+color: white;
+height: 300px;
 width: 300px;
 border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
@@ -70,10 +76,12 @@ float: right;
 #purple_info{
 background-color: white;
 color: black;
-height: 310px;
-width: 778px;
+height: 300px;
+width: 780px;
 position: relative;
-overflow: scroll;
+overflow-x: hidden;
+overflow-y: scroll;
+white-space: wrap;
 }
 
 .info-nav {
@@ -171,7 +179,7 @@ overflow: scroll;
 
 .states {
   position: absolute;
-  width: 700px;
+  width: 680px;
   height: 230px;
   left: 50px;
 }
@@ -193,6 +201,34 @@ overflow: scroll;
   color: black;
   font-size: 12px;
   font-style: normal;
-  width: 778px;
-  height: 310px;
+  width: 700px;
+  height: 300px;
 }
+
+.tagline_center {
+  background-color: white;
+  border: solid black;
+  border-width: 3px 0px 3px 0px;
+  height: 210px;
+  width: 780px;
+  top: 2px;
+  position: relative;
+}
+.scrollmenu {
+  position: relative;
+  height: 200px;
+  bottom: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  position: relative;
+  color: black;
+  padding: 14px;
+  text-decoration: none;
+}
+
