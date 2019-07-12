@@ -40,12 +40,12 @@
 }
 
 .red_area {
-  width: 135px;
+  width: 140px;
   height: 80px;
   transform: rotate(-7.5deg);
   position: absolute;
-  top: 20px;
-  left: 235px;
+  top: 15px;
+  left: 230px;
 }
 .purple_area {
   width: 150px;
