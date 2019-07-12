@@ -16,8 +16,9 @@ $('.vNav a').hover(function() {
 });
 
   $('.vNav a').click(function(){
+      var ref = $.attr(this, 'href');
       $('.states').animate({
-          scrollTop:  $( $.attr(this, 'href'.substring(1)) ).offset().top
+          scrollTop: $(ref.substring(1)).getComputedStyle.top
       }, 500);
       return false;
   });
@@ -33,8 +34,8 @@ $('.vNav a').hover(function() {
               break;
           }
       }
-$('.vNav ul li a').removeClass('active');
-      $('.vNav ul li a:eq('+index+')').addClass('active');
+$('.vNav ul li').removeClass('active');
+      $('.vNav ul li:eq('+index+')').addClass('active');
   });
   
       $('.vNav ul li a').click(function () {

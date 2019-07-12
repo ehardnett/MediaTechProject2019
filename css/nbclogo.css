@@ -1,5 +1,5 @@
 .peacock {
-  background-image: url("../images/nbclogo/peacock3.png");
+  background-image: url("../images/nbclogo/nbclogo_new.jpg");
   background-size: 800px 400px;  
   background-position: top;
   height: 400px;
@@ -31,40 +31,39 @@
 
 .orange_area {
   width: 130px;
-  height: 60px;
-  transform: rotate(-37.5deg);
+  height: 100px;
+  transform: rotate(-32.5deg);
   
   position: absolute;
-  top: 120px;
-  left: 75px;
+  top: 85px;
+  left: 70px;
 }
 
 .red_area {
   width: 135px;
-  height: 65px;
-  transform: rotate(-10deg);
-  
+  height: 80px;
+  transform: rotate(-7.5deg);
   position: absolute;
-  top: 35px;
+  top: 20px;
   left: 235px;
 }
 .purple_area {
   width: 150px;
-  height: 65px;
-  transform: rotate(10deg);
+  height: 80px;
+  transform: rotate(7.5deg);
   
   position: absolute;
-  top: 32.5px;
+  top: 15px;
   right: 222.5px;
 }
 .blue_area {
   width: 130px;
-  height: 60px;
-  transform: rotate(37.5deg);
+  height: 100px;
+  transform: rotate(35deg);
   
   position: absolute;
-  top: 117.5px;
-  right: 77.5px;
+  top: 85px;
+  right: 70px;
 }
 
 
