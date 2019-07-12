@@ -1,9 +1,9 @@
 .descriptions {
-  background-size: 800px 400px; 
+  background-size: 1000px 400px; 
   background-position: top;
   height: 400px;
-  width: 800px;    
-  margin: auto;
+  width: 1000px;    
+  margin: 0 auto;
 }
 
 #unique_culture, #reach, #locations, #cutting_edge {
@@ -11,7 +11,6 @@ top: 0;
 bottom: 0;
 right: 0;
 left: 0;
-margin: 10;
 text-align: center;
 display: none; 
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -44,7 +43,7 @@ background-color: white;
 border-radius: 10px;
 margin: 5px;
 height: 300px;
-width: 780px;
+width: 980px;
 color: black;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px;
@@ -63,6 +62,7 @@ font-weight: lighter;
   letter-spacing: 0.2em;
   text-align: center;
   text-transform: uppercase;
+  border-top-left-radius: 10px;
 }
 
 .tagline_left :after{
@@ -75,6 +75,7 @@ font-weight: lighter;
   border-bottom: 26px solid white;
   border-left: 150px solid transparent;
   border-right: 150px solid transparent;
+ 
 }
 
 .tagline_right {
@@ -89,6 +90,7 @@ font-weight: lighter;
   letter-spacing: 0.2em;
   text-align: center;
   text-transform: uppercase;
+  border-top-right-radius: 10px;
 }
 
 .tagline_right :after{
@@ -101,6 +103,7 @@ font-weight: lighter;
   border-bottom: 26px solid white;
   border-left: 150px solid transparent;
   border-right: 150px solid transparent;
+  
 }
 
 .red_tagline {
@@ -116,6 +119,7 @@ font-weight: lighter;
   letter-spacing: 0.2em;
   text-align: center;
   text-transform: uppercase;
+  border-top-left-radius: 10px;
 }
 
 .red_tagline :after{
@@ -128,6 +132,7 @@ font-weight: lighter;
   border-bottom: 10px solid white;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
+
 }
 
 
@@ -135,7 +140,7 @@ font-weight: lighter;
 background-color: white;
 color: black;
 height: 300px;
-width: 780px;
+width: 980px;
 position: relative;
 overflow-x: hidden;
 overflow-y: scroll;
@@ -237,16 +242,14 @@ white-space: wrap;
 
 .states {
   position: absolute;
-  width: 680px;
+  width: 880px;
   height: 230px;
   left: 50px;
 }
 
 .images_info {
   float: left;
-  border: 5px dotted black;
-  padding: 3px;
-  margin: 5px;
+  border: 5px solid white;
   width: 250px;
   height: 250px;
   border-radius: 10px;
@@ -259,7 +262,7 @@ white-space: wrap;
   color: black;
   font-size: 12px;
   font-style: normal;
-  width: 700px;
+  width: 880px;
   height: 300px;
 }
 
@@ -268,7 +271,7 @@ white-space: wrap;
   border: solid black;
   border-width: 3px 0px 3px 0px;
   height: 210px;
-  width: 580px;
+  width: 780px;
   top: 45px;
   position: relative;
   margin-left: 200px;
