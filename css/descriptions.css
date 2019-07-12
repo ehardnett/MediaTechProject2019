@@ -143,14 +143,13 @@ height: 300px;
 width: 980px;
 position: relative;
 overflow-x: hidden;
-overflow-y: scroll;
 white-space: wrap;
 }
 
 .info-nav {
   width: 50px;
   height: 230px;
-  position: fixed;
+  position: relative;
   float: left;
 }
 
@@ -245,6 +244,7 @@ white-space: wrap;
   width: 880px;
   height: 230px;
   left: 50px;
+  overflow-y: scroll;
 }
 
 .images_info {
