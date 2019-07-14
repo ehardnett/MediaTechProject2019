@@ -1,8 +1,11 @@
 $(document).ready(function($){
     var parPosition = [];
-  $('.par').each(function() {
-      parPosition.push($(this).offset().top);
-  });
+    for (var i = 1; i < 7; i++) {
+        var section = ".section0" + i.toString()
+        var topParam = getComputedStyle(document.querySelector(section)).top
+        topParam = topParam.substring(0, topParam.length - 2);
+        parPosition.push(parseInt(topParam))
+    }
 
   $('.vNav ul li a').click(function () {
     $('.vNav ul li a').removeClass('active');
@@ -17,8 +20,9 @@ $('.vNav a').hover(function() {
 
   $('.vNav a').click(function(){
       var ref = $.attr(this, 'href');
+      ref = '.' + ref.substring(1);
       $('.states').animate({
-          scrollTop: $(ref.substring(1)).getComputedStyle.top
+          scrollTop: getComputedStyle(document.querySelector(ref)).top
       }, 500);
       return false;
   });
@@ -26,16 +30,16 @@ $('.vNav a').hover(function() {
      
   
      $('.states').scroll(function(){
-  var position = $('.states').scrollTop(),
-          index; 
+  var position = $('.states').scrollTop();
+          var index; 
           for (var i=0; i<parPosition.length; i++) {
-          if (position <= parPosition[i]) {
+                if (position <= parPosition[i]) {
               index = i;
               break;
           }
-      }
-$('.vNav ul li').removeClass('active');
-      $('.vNav ul li:eq('+index+')').addClass('active');
+            }
+$('.vNav ul li a').removeClass('active');
+      $('.vNav ul li a:eq('+index+')').addClass('active');
   });
   
       $('.vNav ul li a').click(function () {
