@@ -14,11 +14,15 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 26px;
 font-weight: bold; 
 color: white;
-padding: 3px;
+padding: 1px;
 height: 300px;
 border-radius: 10px;
 width: 700px;
 margin: 0 auto;
+}
+
+#unique_culture p, #reach p, #locations p, #cutting_edge p {
+  margin-bottom: 0px;
 }
 
 #unique_culture {
@@ -42,19 +46,20 @@ background-color: #2B89D0;
 background-color: white;
 border-radius: 10px;
 margin: 5px;
-height: 200px;
+height: 230px;
 width: 685px;
 color: black;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px;
 font-weight: lighter;
+bottom: 50px;
 }
 
 .tagline_left {
-  width: 200px;
-  height: 180px;
+  width: 190px;
+  height: 200px;
   float: left;
-  padding-top: 20px;
+  padding-top: 30px;
   position: relative; 
   background: black;
   color: white;
@@ -73,16 +78,25 @@ font-weight: lighter;
   width: 0;
   height: 0;
   border-bottom: 26px solid white;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
+  border-left: 95px solid transparent;
+  border-right: 95px solid transparent;
  
+}
+
+.erg_info p {
+  width: 480px;
+  height: 230px;
+  margin-top: 0px;
+  margin-left: 200px;
+  font-size: 16px;
+  text-align: justify;
 }
 
 .tagline_right {
   width: 200px;
-  height: 160px;
+  height: 180px;
   float: right;
-  padding-top: 40px;
+  padding-top: 50px;
   position: relative; 
   background: black;
   color: white;
@@ -108,7 +122,7 @@ font-weight: lighter;
 
 .red_tagline {
   width: 200px;
-  height: 160px;
+  height: 180px;
   float: left;
   margin-bottom: 5px;
   position: absolute; 
@@ -119,7 +133,7 @@ font-weight: lighter;
   text-align: center;
   text-transform: uppercase;
   border-top-left-radius: 10px;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 .red_tagline :after{
@@ -138,11 +152,12 @@ font-weight: lighter;
 #purple_info{
 background-color: white;
 color: black;
-height: 200px;
+height: 230px;
 width: 685px;
 position: relative;
 overflow-x: hidden;
 white-space: wrap;
+top: 0px;
 }
 
 .info-nav {
@@ -215,27 +230,27 @@ white-space: wrap;
 
 .section02 {
   position: absolute;
-  top: 200px;
+  top: 230px;
 }
 
 .section03 {
   position: absolute;
-  top: 400px;
+  top: 460px;
 }
 
 .section04 {
   position: absolute;
-  top: 600px;
+  top: 690px;
 }
 
 .section05 {
   position: absolute;
-  top: 800px;
+  top: 920px;
 }
 
 .section06 {
   position: absolute;
-  top: 1000px
+  top: 1150px
 }
 
 .states {
@@ -247,11 +262,11 @@ white-space: wrap;
   overflow-x: hidden;
 }
 
-.images_info {
+#par img {
   float: left;
   border: 5px solid white;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 10px;
   top: inherit;
   position: relative;
@@ -264,7 +279,11 @@ white-space: wrap;
   font-size: 12px;
   font-style: normal;
   width: 635px;
-  height: 200px;
+  height: 230px;
+}
+
+#par p {
+  height: 230px;
 }
 
 .tagline_center {
@@ -275,7 +294,7 @@ white-space: wrap;
   width: 485px;
   position: relative;
   margin-left: 200px;
-  top: 7px;
+  top: 20px;
 }
 .scrollmenu {
   position: relative;
@@ -294,6 +313,5 @@ white-space: wrap;
   padding: 14px;
   text-decoration: none;
 }
-
 
 
