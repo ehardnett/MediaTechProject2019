@@ -12,9 +12,9 @@
         
     </div>
 
-    <div class="here-you-can">
+    <div class="here-you-can" style="margin-bottom: 20px; border-bottom: lightgray solid 10px; padding-bottom: 10px;">
         <img src = "images/header.png" alt = "HEADER" style="width: 100%;">
-        <p style="font-size: 30px; right: 0px; width: 1033px; margin-top: 40px; margin-bottom: 20px; margin-right: 0px; position: relative;" >
+        <p style="font-size: 30px; right: 0px; width: 100%; margin-top: 40px; margin-bottom: 20px; margin-right: 0px; position: relative; border-top: lightgray solid 10px; padding-top: 10px;" >
             <img src="images/media_tech_logo.jpg" alt="media_tech_logo" style="float: left; height: 200px; width: 300px;">
             NBCUniversal Media Tech Program
         </p>
@@ -28,12 +28,11 @@
     <div class="peacock">
         <script src="js/peacock.js"></script>
         <link rel="stylesheet" href="css/nbclogo.css">
-        <div class="orange_area" id="half-circle" onclick="showDiv('unique_culture', 'reach', 'locations', 'cutting_edge')"></div>
-        <div class="red_area" id="half-circle" onclick="showDiv('reach', 'unique_culture', 'locations', 'cutting_edge')"></div>
-        <div class="purple_area" id="half-circle" onclick="showDiv('locations', 'unique_culture', 'reach', 'cutting_edge')"></div>
-        <div class="blue_area" id="half-circle" onclick="showDiv('cutting_edge', 'unique_culture', 'locations', 'reach')"></div>
+        <div class="orange_area" id="half-circle" onclick="showDiv('unique_culture', 'reach', 'locations', 'cutting_edge', 'blank')"></div>
+        <div class="red_area" id="half-circle" onclick="showDiv('reach', 'unique_culture', 'locations', 'cutting_edge', 'blank')"></div>
+        <div class="purple_area" id="half-circle" onclick="showDiv('locations', 'unique_culture', 'reach', 'cutting_edge', 'blank')"></div>
+        <div class="blue_area" id="half-circle" onclick="showDiv('cutting_edge', 'unique_culture', 'locations', 'reach', 'blank')"></div>
     </div>
-
     <div class="descriptions">
         <script src="js/peacock.js"></script>
         <link rel="stylesheet" href="css/descriptions.css">
@@ -46,17 +45,15 @@
                 </div>
                 <div class="erg_info">
                     Here you can feel included through these employee resource groups.
-                    <p>
-                        <img src="images/descriptions/ergs/my_abilities.PNG" alt="my_abilities" style="width: 150px; height: 100px; float: left; margin: 5px;">
-                        <img src="images/descriptions/ergs/asian_pacific.PNG" alt="asian_pacific" style="width: 150px; height: 100px; float: left; margin: 5px;"> 
-                        <img src="images/descriptions/ergs/black_employee_network.PNG" alt="black_employee_network" style="width: 150px; height: 100px; float: left; margin: 5px;">            
-                        <img src="images/descriptions/ergs/out.jpg" alt="out" style="width: 150px; height: 100px; float: left; margin: 5px;">
-                        <img src="images/descriptions/ergs/unidos.PNG" alt="unidos" style="width: 150px; height: 100px; float: left; margin: 5px;">
-                        <img src="images/descriptions/ergs/womens_network.PNG" alt="womens_network" style="width: 150px; height: 100px; float: left; margin: 5px;">    
-                        <img src="images/descriptions/ergs/veterans_network.PNG" alt="veterans_network" style="width: 150px; height: 100px; float: left; margin: 5px;">
-                        <img src="images/descriptions/ergs/young_professionals.PNG" alt="young_professionals" style="width: 150px; height: 100px; float: left; margin: 5px;">
-                    </p>
-                                
+                    <br>
+                    <img src="images/descriptions/ergs/my_abilities.PNG" alt="my_abilities" style="width: 150px; height: 100px; float: left; margin: 5px;">
+                    <img src="images/descriptions/ergs/asian_pacific.PNG" alt="asian_pacific" style="width: 150px; height: 100px; float: left; margin: 5px;"> 
+                    <img src="images/descriptions/ergs/black_employee_network.PNG" alt="black_employee_network" style="width: 150px; height: 100px; float: left; margin: 5px;">            
+                    <img src="images/descriptions/ergs/out.jpg" alt="out" style="width: 150px; height: 100px; float: left; margin: 5px;">
+                    <img src="images/descriptions/ergs/unidos.PNG" alt="unidos" style="width: 150px; height: 100px; float: left; margin: 5px;">
+                    <img src="images/descriptions/ergs/womens_network.PNG" alt="womens_network" style="width: 150px; height: 100px; float: left; margin: 5px;">    
+                    <img src="images/descriptions/ergs/veterans_network.PNG" alt="veterans_network" style="width: 150px; height: 100px; float: left; margin: 5px;">
+                    <img src="images/descriptions/ergs/young_professionals.PNG" alt="young_professionals" style="width: 150px; height: 100px; float: left; margin: 5px;">                             
                 </div>
            </div>
         </div>
@@ -218,7 +215,13 @@
                     </div>
            </div>
         </div>
+        <div id="blank">
 
+        </div>
+    </div>
+
+    <div class="picture_span">
+        
     </div>
 
     <div class="programs">
@@ -286,7 +289,9 @@
                 
         </div>
           
-
+    <div class="picture_span">
+        
+    </div>
     <div class="ops_and_tech">
         <div id="it">
 
@@ -301,6 +306,9 @@
         </div>
     </div>
 
-    <div ></div>
+    <div class="footer">
+        <img src="images/footer.png" alt="FOOTER" style="width: 100%;">
+    </div>
+
   </body>
 </html>

@@ -49,12 +49,15 @@ $('.vNav ul li a').removeClass('active');
 });
 
 
-function showDiv(id, collapse1, collapse2, collapse3) {
+function showDiv(id, collapse1, collapse2, collapse3, blank) {
     var x = document.getElementById(id);
+    var y = document.getElementById(blank);
     if (window.getComputedStyle(x).display === "none") {
+        y.style.display = "none";
         x.style.display = "block";
     } else {
         x.style.display = "none";
+        y.style.display = "block";
     }
     document.getElementById(collapse1).style.display = "none";
     document.getElementById(collapse2).style.display = "none";
