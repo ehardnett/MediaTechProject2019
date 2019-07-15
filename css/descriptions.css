@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-#unique_culture, #reach, #locations, #cutting_edge {
+#unique_culture, #reach, #locations, #cutting_edge{
 top: 0;
 bottom: 0;
 right: 0;
@@ -19,7 +19,28 @@ height: 300px;
 border-radius: 10px;
 width: 700px;
 margin: 0 auto;
+float: left;
 }
+
+#blank{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  display: block; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 26px;
+  font-weight: bold; 
+  color: white;
+  padding: 1px;
+  height: 300px;
+  border-radius: 10px;
+  width: 700px;
+  margin: 0 auto;
+  float: left;
+  }
+
 
 #unique_culture p, #reach p, #locations p, #cutting_edge p {
   margin-bottom: 0px;
@@ -88,7 +109,7 @@ bottom: 50px;
   height: 230px;
   margin-top: 0px;
   margin-left: 200px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
   overflow-y: scroll;
   overflow-x: hidden;  
