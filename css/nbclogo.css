@@ -1,4 +1,4 @@
-.peacock {
+#logo {
   background-image: url("../images/nbclogo/nbclogo_new.jpg");
   background-size: 600px 300px;  
   background-position: top;
@@ -13,7 +13,7 @@
   	
   margin: auto;
   padding: 10;
-  float: left;
+  float: none;
 }
 
 #half-circle {
