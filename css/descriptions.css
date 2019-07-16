@@ -89,8 +89,8 @@ bottom: 50px;
   height: 230px;
   margin-top: 0px;
   margin-left: 200px;
-  font-size: 18px;
-  text-align: justify;
+  font-size: 16px;
+  text-align: left;
   overflow-y: scroll;
   overflow-x: hidden;  
 }
@@ -121,6 +121,18 @@ bottom: 50px;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   
+}
+
+.tech_info {
+  width: 480px;
+  height: 230px;
+  margin-top: 0px;
+  margin-right: 200px;
+  font-size: 18px;
+  text-align: justify;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-left: 5px;
 }
 
 .red_tagline {
@@ -279,7 +291,7 @@ top: 0px;
 #par {
   font-family: 'Times New Roman', Times, serif;
   color: black;
-  font-size: 12px;
+  font-size: 16px;
   font-style: normal;
   width: 635px;
   height: 230px;
