@@ -331,4 +331,16 @@ top: 0px;
   text-decoration: none;
 }
 
+#picture_span1 {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: 0px;
+}
 
+#picture_span2 {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  top: 0px;
+}

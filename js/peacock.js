@@ -55,9 +55,17 @@ function showDiv(id, collapse1, collapse2, collapse3) {
     if (window.getComputedStyle(x).display === "none") {
         y.style.float = "left";
         x.style.display = "block";
+        document.getElementById("picture_span1").style.top = "350px";
+        document.getElementById("programs").style.top = "350px";
+        document.getElementById("picture_span2").style.top = "350px";
+        document.getElementById("timeline").style.marginTop= "350px";
     } else {
         x.style.display = "none";
         y.style.float = "none";
+        document.getElementById("picture_span1").style.top = "0px";
+        document.getElementById("programs").style.top = "0px";
+        document.getElementById("picture_span2").style.top = "0px";
+        document.getElementById("timeline").style.marginTop= "0px";
     }
     document.getElementById(collapse1).style.display = "none";
     document.getElementById(collapse2).style.display = "none";

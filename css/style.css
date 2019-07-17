@@ -2,6 +2,7 @@ h1 {
   text-align: left;
   height: 38px;
   margin: 60px 0;
+  top: 0px;
 }
 h1 span {
   white-space: nowrap;
