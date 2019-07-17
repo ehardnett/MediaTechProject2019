@@ -9,6 +9,15 @@ h1 span {
   white-space: nowrap;
 }
 
+#peacock {
+box-sizing: border-box;  
+  width: 1500px;
+  height: 500px;
+  padding: 30px;  
+  border: 10px solid blue;
+}
+
+
 #programs {
   box-sizing: content-box;  
   width: 1000px;
@@ -44,5 +53,25 @@ h1 span {
   padding: 30px;  
   border: 10px solid green;
   position: relative;
+}
+
+
+
+
+#timeline {
+  box-sizing: content-box;  
+  width: 1500px;
+  height: 300px;
+  padding: 30px;  
+  border: 10px solid red;
+}
+
+
+#pictures {
+  box-sizing: content-box;  
+  width: 1500px;
+  height: 300px;
+  padding: 30px;  
+  border: 10px solid purple;
 }
 
