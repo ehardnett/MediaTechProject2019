@@ -274,3 +274,7 @@ input[data-description="rot3"]:checked ~ #timeline-descriptions-wrapper p[data-d
   position: relative;
   margin: 2px;
 }
+
+.module {
+  box-sizing: content-box;
+}

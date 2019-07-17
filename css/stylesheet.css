@@ -9,26 +9,37 @@ h1 span {
   white-space: nowrap;
 }
 
-#peacock {
-box-sizing: border-box;  
-  width: 1500px;
-  height: 500px;
+
+.here-you-can {
+  box-sizing: border-box;  
+  width: 100%;
+  height: 100%;
   padding: 30px;  
-  border: 10px solid blue;
+  border: 10px solid Orange;
 }
 
 
-#programs {
-  box-sizing: content-box;  
-  width: 1000px;
+
+#peacock {
+box-sizing: border-box;  
+  width: 100%;
   height: 500px;
   padding: 30px;  
   border: 10px solid green;
 }
 
+
+#programs {
+  box-sizing: border-box;  
+  width: 100%;
+  height: 100%;
+  padding: 30px;  
+  border: 10px solid green;
+}
+
 #associates {
-  box-sizing: content-box;  
-  width: 300px;
+  
+  width: 50%;
   height: 100px;
   padding: 30px;  
   border: 10px solid green;
@@ -37,10 +48,11 @@ box-sizing: border-box;
 
 
 #internship {
-  box-sizing: content-box;  
-  width: 200px;
+  box-sizing: border-box;  
+  width: 50%;
   height: 100px;
   padding: 30px;  
+    
   border: 10px solid green;
 }
 
@@ -48,18 +60,18 @@ box-sizing: border-box;
 
 
 #timeline {
-  box-sizing: content-box;  
-  width: 1500px;
-  height: 300px;
+  box-sizing: border-box;  
+  width: 100%;
+  height: 100%;
   padding: 30px;  
   border: 10px solid red;
 }
 
 
 #pictures {
-  box-sizing: content-box;  
-  width: 1500px;
-  height: 300px;
+  box-sizing: border-box;  
+  width: 100%;
+  height: 100%;
   padding: 30px;  
   border: 10px solid purple;
 }
