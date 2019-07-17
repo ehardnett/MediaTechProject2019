@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <div id="storage"></div>
     <meta charset="utf-8">
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -19,7 +20,7 @@
       
       
       
-    <div class="here-you-can" style="margin-bottom: 20px; border-bottom: lightgray solid 10px; padding-bottom: 10px;">
+    <div class="here-you-can">
         <img src = "images/header.png" alt = "HEADER" style="width: 100%;">
         <p style="font-size: 30px; right: 0px; width: 100%; margin-top: 40px; margin-bottom: 20px; margin-right: 0px; position: relative; border-top: lightgray solid 10px; padding-top: 10px;" >
             <img src="images/media_tech_logo.jpg" alt="media_tech_logo" style="float: left; height: 200px; width: 300px;">
@@ -36,6 +37,7 @@
       
       
       
+    <div id="peacock">
       
     <div class="peacock" id="logo">
         <script src="js/peacock.js"></script>
@@ -44,7 +46,7 @@
         <div class="red_area" id="half-circle" onclick="showDiv('reach', 'unique_culture', 'locations', 'cutting_edge')"></div>
         <div class="purple_area" id="half-circle" onclick="showDiv('locations', 'unique_culture', 'reach', 'cutting_edge')"></div>
         <div class="blue_area" id="half-circle" onclick="showDiv('cutting_edge', 'unique_culture', 'locations', 'reach')"></div>
-</div> 
+    </div> 
     <div class="descriptions">
         <script src="js/peacock.js"></script>
         <link rel="stylesheet" href="css/descriptions.css">
@@ -244,24 +246,27 @@
         </div>
     </div>
 
-    <div id="picture_span1">
-        <link rel="stylesheet" href="css/descriptions.css">
-    </div>
-
-      
+    <div class="picture_span">
         
+    </div>
+        </div>
+      
+      
     <div id="programs">
+        <link rel="stylesheet" href="./css/programs.css">
 
        
 
     <div class="programs">
         <div id="internship">
+            <img src="img_nature.jpg" alt="Nature" class="responsive" width="600" height="400">
 
         </div>
         
         <div id="associates">
            <h2>Associates:</h2>
-            <div id="example1">Hey!</div>
+            <img src="img_nature.jpg" alt="Nature" class="responsive" width="600" height="400">
+            
 
         
         </div>  
@@ -328,12 +333,11 @@
       
       
       
-       
-    
+    <div id="pictures">      
+    <div class="picture_span">
+        
+    </div>
    <div class="ops_tech" style="text-align: center;">
-        <div id="picture_span2">
-                <link rel="stylesheet" href="css/descriptions.css">
-            </div>
         <link rel="stylesheet" href="./css/types.css">
         <div class="onClickTextOverImage" style="background-image:url('./images/GMO.png');">
             <div> Broadcast Operations is located in Englewood Cliffs, NJ and supports the
@@ -360,10 +364,11 @@
                 delivery and linear origination across NBCUniversal’s operations.
             </div>
         </div>
-    <script  src="./js/script.js"></script>
         
     </div>
-
+    <script  src="./js/script.js"></script>
+        
+        </div>
       
       
 
