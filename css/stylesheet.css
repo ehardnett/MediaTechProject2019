@@ -24,6 +24,15 @@ box-sizing: border-box;
   height: 500px;
   padding: 30px;  
   border: 10px solid green;
+  margin: 0 auto;
+  position: relative;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-position: top;
 }
 
 #associates {
@@ -32,6 +41,7 @@ box-sizing: border-box;
   height: 100px;
   padding: 30px;  
   border: 10px solid green;
+  position: relative;
 }
 
 
@@ -39,9 +49,10 @@ box-sizing: border-box;
 #internship {
   box-sizing: content-box;  
   width: 200px;
-  height: 100px;
+  height: 150px;
   padding: 30px;  
   border: 10px solid green;
+  position: relative;
 }
 
 
