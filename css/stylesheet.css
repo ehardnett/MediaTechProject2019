@@ -10,9 +10,9 @@ h1 span {
 }
 
 #peacock {
-  box-sizing: content-box;  
-  width: 2000px;
-  height: 300px;
+box-sizing: border-box;  
+  width: 1500px;
+  height: 500px;
   padding: 30px;  
   border: 10px solid blue;
 }
@@ -63,3 +63,4 @@ h1 span {
   padding: 30px;  
   border: 10px solid purple;
 }
+
