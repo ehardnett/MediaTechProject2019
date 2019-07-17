@@ -9,68 +9,49 @@ h1 span {
   white-space: nowrap;
 }
 
+
+.here-you-can {
+  box-sizing: border-box;  
+  width: 100%;
+  height: 100%;
+  padding: 30px;  
+  border: 10px solid Orange;
+    
+}
+
+
+
 #peacock {
 box-sizing: border-box;  
-  width: 1500px;
+  width: 100%;
   height: 500px;
   padding: 30px;  
-  border: 10px solid blue;
+  border: 10px solid green;
 }
 
 
 #programs {
-  box-sizing: content-box;  
-  width: 1000px;
-  height: 500px;
+  box-sizing: border-box;  
+  width: 100%;
+  height: 300px;
   padding: 30px;  
   border: 10px solid green;
-  margin: 0 auto;
-  position: relative;
-
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  background-position: top;
 }
-
-#associates {
-  box-sizing: content-box;  
-  width: 300px;
-  height: 100px;
-  padding: 30px;  
-  border: 10px solid green;
-  position: relative;
-}
-
-
-
-#internship {
-  box-sizing: content-box;  
-  width: 200px;
-  height: 150px;
-  padding: 30px;  
-  border: 10px solid green;
-  position: relative;
-}
-
-
 
 
 #timeline {
-  box-sizing: content-box;  
-  width: 1500px;
-  height: 300px;
+  box-sizing: border-box;  
+  width: 100%;
+  height: 100%;
   padding: 30px;  
   border: 10px solid red;
 }
 
 
 #pictures {
-  box-sizing: content-box;  
-  width: 1500px;
-  height: 300px;
+  box-sizing: border-box;  
+  width: 100%;
+  height: 100%;
   padding: 30px;  
   border: 10px solid purple;
 }

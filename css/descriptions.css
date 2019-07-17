@@ -44,9 +44,10 @@ background-color: #2B89D0;
 }
 
 .info {
+    
 background-color: white;
 border-radius: 10px;
-margin: 5px;
+margin: px;
 height: 230px;
 width: 685px;
 color: black;
@@ -165,9 +166,10 @@ bottom: 50px;
 
 
 #purple_info{
+box-sizing: border-box; 
 background-color: white;
 color: black;
-height: 230px;
+height: 100;
 width: 685px;
 position: relative;
 overflow-x: hidden;
@@ -329,16 +331,4 @@ top: 0px;
   text-decoration: none;
 }
 
-#picture_span1 {
-  width: 100%;
-  height: 100px;
-  position: relative;
-  top: 0px;
-}
 
-#picture_span2 {
-  width: 100%;
-  height: 150px;
-  position: relative;
-  top: 0px;
-}
