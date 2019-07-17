@@ -37,24 +37,38 @@ box-sizing: border-box;
   border: 10px solid green;
 }
 
-#associates {
-  
-  width: 50%;
-  height: 100px;
-  padding: 30px;  
-  border: 10px solid green;
-}
 
 
-
-#internship {
-  box-sizing: border-box;  
-  width: 50%;
+#programs #internship {
+        position: relative;
+background: blue;
+left: 50%;
+top: 25%;
+    
+  box-sizing: border-box;
+  width: 20%;
   height: 100px;
   padding: 30px;  
     
   border: 10px solid green;
 }
+
+
+
+#programs #associates {
+position: relative;
+width: 50%;
+height: 50%;
+background: green;
+left: 1%;
+    top: 25%;
+  width: 20%;
+  height: 100px;
+  padding: 30px;  
+  border: 10px solid green;
+}
+
+
 
 
 
