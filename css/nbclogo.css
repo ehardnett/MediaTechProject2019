@@ -15,10 +15,6 @@
   margin: auto;
   padding: 10;
   float: none;
-    
-background-repeat:no-repeat;
-background-size:contain;
-background-position:center
 }
 
 #half-circle {
@@ -41,7 +37,7 @@ background-position:center
   transform: rotate(-37.5deg);
   
   position: absolute;
-  top: 75px;
+  top: 70px;
   left: 35px;
 }
 
@@ -68,7 +64,7 @@ background-position:center
   transform: rotate(37.5deg);
   
   position: absolute;
-  top: 75px;
+  top: 70px;
   right: 35px;
 }
 

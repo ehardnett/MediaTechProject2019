@@ -1,6 +1,8 @@
 .descriptions {
   background-position: top;  
   margin: 0 auto;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 #unique_culture, #reach, #locations, #cutting_edge{
@@ -10,7 +12,6 @@ right: 0;
 left: 0;
 text-align: center;
 display: none; 
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 26px;
 font-weight: bold; 
 color: white;
@@ -47,11 +48,10 @@ background-color: #2B89D0;
     
 background-color: white;
 border-radius: 10px;
-margin: px;
+margin: 5px;
 height: 230px;
 width: 685px;
 color: black;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px;
 font-weight: lighter;
 bottom: 50px;
@@ -291,9 +291,8 @@ top: 0px;
 }
 
 #par {
-  font-family: 'Times New Roman', Times, serif;
   color: black;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   width: 635px;
   height: 230px;
