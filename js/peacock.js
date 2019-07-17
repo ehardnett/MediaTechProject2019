@@ -1,4 +1,4 @@
-$(document).ready(function($){
+$(document).ready(function($) {
     var parPosition = [];
     for (var i = 1; i < 7; i++) {
         var section = ".section0" + i.toString()
