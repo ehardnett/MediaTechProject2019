@@ -101,7 +101,7 @@ $('.hNav ul li a').removeClass('active');
 
 function showDiv(id, collapse1, collapse2, collapse3) {
     var x = document.getElementById(id);
-    var y = document.getElementById("logo")
+    var y = document.getElementById("logo");
     if (window.getComputedStyle(x).display === "none") {
         y.style.float = "left";
         x.style.display = "block";

@@ -15,7 +15,7 @@ h1 span {
   align-items: center;
   width: 50%;
   height: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
 }
 
 .input-flex-container {
@@ -30,7 +30,7 @@ h1 span {
   left: 300px;
   z-index: 0;
   margin-left: calc((80vw - 25px) / 20);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
 }
 
 input {
