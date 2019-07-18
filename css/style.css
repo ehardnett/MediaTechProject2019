@@ -258,7 +258,7 @@ input[data-description="rot3"]:checked ~ #timeline-descriptions-wrapper p[data-d
 }
 
 .associate{
-  width: 150px; 
+  width: 300px; 
   height: 300px; 
   float: left; 
   position: relative;
@@ -269,13 +269,13 @@ input[data-description="rot3"]:checked ~ #timeline-descriptions-wrapper p[data-d
 
 .images_info {
   float: left;
-  border: 3px solid white;
+  border: 2px solid transparent;
   width: 120px;
   height: 120px;
   border-radius: 10px;
   top: inherit;
   position: relative;
-  margin: 2px;
+  margin: 1px;
 }
 
 .module {
