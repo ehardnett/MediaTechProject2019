@@ -1,7 +1,7 @@
 #logo {
-  background-image: url("../images/nbclogo/nbclogo_new.jpg");
-  background-size: 600px 300px;  
+  background-image: url("../images/nbclogo/nbclogo_new.png");
   background-position: top;
+  background-size: 600px 300px;  
   height: 300px;
   width: 600px;
    
@@ -46,7 +46,7 @@
   height: 60px;
   transform: rotate(-7.5deg);
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 165px;
 }
 .purple_area {
@@ -55,7 +55,7 @@
   transform: rotate(7.5deg);
   
   position: absolute;
-  top: 10px;
+  top: 0px;
   right: 165px;
 }
 .blue_area {
