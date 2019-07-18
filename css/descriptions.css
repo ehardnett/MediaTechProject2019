@@ -312,7 +312,25 @@ top: 0px;
   margin-left: 200px;
   top: 20px;
 }
+
 .scrollmenu {
+  position: absolute;
+  width: inherit;
+  height: 180px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  position: relative;
+  color: black;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* .scrollmenu {
   position: relative;
   height: 150px;
   overflow-x: scroll;
@@ -328,6 +346,107 @@ top: 0px;
   color: black;
   padding: 14px;
   text-decoration: none;
+} */
+
+.hor-info-nav {
+  width: 485px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.hNav {
+  position: relative;
+  width: 485px;
+  height: 10px;
+  z-index: 9999;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.hNav ul {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  left: 50px;
+  display: block;
+  height: 10px;
+  width: 300px;
+}
+
+.hNav ul li{
+  position: relative;
+  color: rgb(113,135,133);
+  display: inline;
+}
+
+.hNav a{
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  text-indent: -9999px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: rgb(113,135,133);
+  text-decoration: none;
+}
+
+.hNav a:hover{
+  border-radius: 50%;
+  background-color: rgb(113,135,133);
+  text-decoration: none;
+}
+
+.hNav a.active{
+  border-radius: 50%;
+  background-color: rgb(207,219,218);
+  transform: scale(1.5);
+  text-decoration: none;
+}
+
+.brands01 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.brands02 {
+  position: absolute;
+  top: 10px;
+  left: 490px;  
+}
+
+.brands03 {
+  position: absolute;
+  top: 10px;
+  left: 980px;
+}
+
+.brands04 {
+  position: absolute;
+  top: 10px;
+  left: 1470px;
+}
+
+.brands05 {
+  position: absolute;
+  top: 10px;
+  left: 1960px;
+}
+
+.brands06 {
+  position: absolute;
+  top: 10px;
+  left: 2450px;
+}
+
+#brand {
+  color: black;
+  font-size: 14px;
+  font-style: normal;
+  width: 485px;
+  height: 180px;
 }
 
 
