@@ -48,10 +48,60 @@ $('.vNav ul li a').removeClass('active');
   });   
 });
 
+$(document).ready(function($) {
+    var brandPosition = [];
+    for (var i = 1; i < 7; i++) {
+        var section = ".brands0" + i.toString()
+        var leftParam = getComputedStyle(document.querySelector(section)).left
+        leftParam = leftParam.substring(0, leftParam.length - 2);
+        brandPosition.push(parseInt(leftParam))
+    }
+
+  $('.hNav ul li a').click(function () {
+    $('.hNav ul li a').removeClass('active');
+        $(this).addClass('active');
+}); 
+
+$('.hNav a').hover(function() {
+   $(this).find('.label').show();
+   }, function() {
+   $(this).find('.label').hide();
+});
+
+  $('.hNav a').click(function(){
+      var ref = $.attr(this, 'href');
+      ref = '.' + ref.substring(1);
+      $('.scrollmenu').animate({
+          scrollLeft: getComputedStyle(document.querySelector(ref)).left
+      }, 500);
+      return false;
+  });
+  
+     
+  
+     $('.scrollmenu').scroll(function(){
+  var position = $('.scrollmenu').scrollLeft();
+          var index; 
+          for (var i=0; i<brandPosition.length; i++) {
+                if (position <= brandPosition[i]) {
+              index = i;
+              break;
+          }
+            }
+$('.hNav ul li a').removeClass('active');
+      $('.hNav ul li a:eq('+index+')').addClass('active');
+  });
+  
+      $('.hNav ul li a').click(function () {
+      $('.hNav ul li a').removeClass('active');
+          $(this).addClass('active');
+  });   
+});
+
 
 function showDiv(id, collapse1, collapse2, collapse3) {
     var x = document.getElementById(id);
-    var y = document.getElementById("logo")
+    var y = document.getElementById("logo");
     if (window.getComputedStyle(x).display === "none") {
         y.style.float = "left";
         x.style.display = "block";

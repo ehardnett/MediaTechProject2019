@@ -1,6 +1,7 @@
 .descriptions {
-  background-position: top;  
   margin: 0 auto;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+
 }
 
 #unique_culture, #reach, #locations, #cutting_edge{
@@ -10,7 +11,6 @@ right: 0;
 left: 0;
 text-align: center;
 display: none; 
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 26px;
 font-weight: bold; 
 color: white;
@@ -47,11 +47,10 @@ background-color: #2B89D0;
     
 background-color: white;
 border-radius: 10px;
-margin: px;
+margin: 5px;
 height: 230px;
 width: 685px;
 color: black;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px;
 font-weight: lighter;
 bottom: 50px;
@@ -128,7 +127,7 @@ bottom: 50px;
   width: 480px;
   height: 230px;
   margin-top: 0px;
-  margin-right: 200px;
+  margin-left: 200px;
   font-size: 18px;
   text-align: justify;
   overflow-y: scroll;
@@ -291,9 +290,8 @@ top: 0px;
 }
 
 #par {
-  font-family: 'Times New Roman', Times, serif;
   color: black;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   width: 635px;
   height: 230px;
@@ -313,7 +311,25 @@ top: 0px;
   margin-left: 200px;
   top: 20px;
 }
+
 .scrollmenu {
+  position: absolute;
+  width: inherit;
+  height: 180px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  position: relative;
+  color: black;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* .scrollmenu {
   position: relative;
   height: 150px;
   overflow-x: scroll;
@@ -329,6 +345,107 @@ top: 0px;
   color: black;
   padding: 14px;
   text-decoration: none;
+} */
+
+.hor-info-nav {
+  width: 485px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.hNav {
+  position: relative;
+  width: 485px;
+  height: 10px;
+  z-index: 9999;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.hNav ul {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  left: 50px;
+  display: block;
+  height: 10px;
+  width: 300px;
+}
+
+.hNav ul li{
+  position: relative;
+  color: rgb(113,135,133);
+  display: inline;
+}
+
+.hNav a{
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  text-indent: -9999px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: rgb(113,135,133);
+  text-decoration: none;
+}
+
+.hNav a:hover{
+  border-radius: 50%;
+  background-color: rgb(113,135,133);
+  text-decoration: none;
+}
+
+.hNav a.active{
+  border-radius: 50%;
+  background-color: rgb(207,219,218);
+  transform: scale(1.5);
+  text-decoration: none;
+}
+
+.brands01 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.brands02 {
+  position: absolute;
+  top: 10px;
+  left: 490px;  
+}
+
+.brands03 {
+  position: absolute;
+  top: 10px;
+  left: 980px;
+}
+
+.brands04 {
+  position: absolute;
+  top: 10px;
+  left: 1470px;
+}
+
+.brands05 {
+  position: absolute;
+  top: 10px;
+  left: 1960px;
+}
+
+.brands06 {
+  position: absolute;
+  top: 10px;
+  left: 2450px;
+}
+
+#brand {
+  color: black;
+  font-size: 14px;
+  font-style: normal;
+  width: 485px;
+  height: 180px;
 }
 
 

@@ -1,11 +1,11 @@
 
-img {
+#programs img {
 position: relative;
   width: 10%;
   height: auto;
 }
 
-h2
+#programs h2
 {
     color:white;
     font-size:2vw;
