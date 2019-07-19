@@ -262,12 +262,12 @@ input[data-description="rot3"]:checked ~ #timeline-descriptions-wrapper p[data-d
   height: 300px; 
   float: left; 
   position: relative;
-  text-align: left;
-  left: 100px;
+  align-items: left;
+  left: -600px;
   top: 20px;
 }
 
-.images_info {
+#timeline .images_info {
   float: left;
   border: 2px solid transparent;
   width: 120px;
