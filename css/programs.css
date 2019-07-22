@@ -11,6 +11,13 @@ position: relative;
     font-size:2vw;
 }
 
+#programs p
+{
+     font-family: "Segoe UI", "Verdana", sans-serif;
+    color:white;
+    font-size:1vw;
+}
+
 
 
 .internship {
