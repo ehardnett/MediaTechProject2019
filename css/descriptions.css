@@ -18,8 +18,9 @@ padding: 1px;
 height: 300px;
 border-radius: 10px;
 width: 700px;
-margin: 0 auto;
+margin: 10 auto;
 float: left;
+
 }
 
 #unique_culture p, #reach p, #locations p, #cutting_edge p {

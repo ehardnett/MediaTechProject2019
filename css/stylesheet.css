@@ -15,11 +15,15 @@ h1 span {
   width: 100%;
   height: 100%;
   padding: 30px;  
+<<<<<<< HEAD
+ /* <!-- border: 10px solid Orange; --> */
+=======
 
   border: 10px solid white;
 
 
 
+>>>>>>> cc526fa492937980522db35324aa8398c6cc60d4
     
 }
 
@@ -29,21 +33,34 @@ h1 span {
 box-sizing: border-box;  
   width: 100%;
   height: 500px;
+<<<<<<< HEAD
+  padding: 30px;
+   background-color: #eeeeee;
+  /* border: 10px solid green; */
+=======
 
   padding: 30px;  
   border: 10px solid white;
 
 
 
+>>>>>>> cc526fa492937980522db35324aa8398c6cc60d4
 }
 
 
 .programs {
   box-sizing: border-box;  
   width: 100%;
+<<<<<<< HEAD
+  height: 500px;
+  padding-top: 30px;
+  /* <!-- border: 10px solid green; --> */
+
+=======
   height: 350px;
   padding: 30px;  
   border: 10px solid white;
+>>>>>>> cc526fa492937980522db35324aa8398c6cc60d4
 }
 
 
@@ -58,7 +75,11 @@ box-sizing: border-box;
   padding: 50px;
   background-color: #eeeeee;
 
+<<<<<<< HEAD
+  /* <!-- border: 10px solid red; --> */
+=======
  border: 10px solid red; 
+>>>>>>> cc526fa492937980522db35324aa8398c6cc60d4
   }
 
 
@@ -68,11 +89,15 @@ box-sizing: border-box;
   width: 100%;
   height: 100%;
   padding: 30px;  
+<<<<<<< HEAD
+  /* <!-- border: 10px solid purple; --> */
+=======
 
   border: 10px solid white;
 
   border: 10px solid purple; 
 
+>>>>>>> cc526fa492937980522db35324aa8398c6cc60d4
 }
 
 h2
