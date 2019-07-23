@@ -257,16 +257,6 @@ input[data-description="rot3"]:checked ~ #timeline-descriptions-wrapper p[data-d
   left: 540px;
 }
 
-.associate{
-  width: 300px; 
-  height: 300px; 
-  float: left; 
-  position: relative;
-  align-items: left;
-  left: -450px;
-  top: 20px;
-}
-
 #timeline .images_info {
   float: left;
   border: 10px solid transparent;

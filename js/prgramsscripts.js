@@ -14,6 +14,7 @@ function PopUp ()
 $( function grow() {
     $( ".internship" ).on( "click", function() {
       $( "#effect" ).toggleClass( "newClass", 1000, "linear" );
+      document.getElementById("associate").style.left = "90px";
     });
  
     function callback() {
@@ -26,6 +27,7 @@ $( function grow() {
 $( function grow2() {
     $( ".associates" ).on( "click", function() {
       $( "#effect2" ).toggleClass( "newClass2", 1000, "linear" );
+      document.getElementById("associate").style.left = "90px";
     });
  
     function callback2() {
