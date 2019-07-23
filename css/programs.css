@@ -1,17 +1,17 @@
 
-#programs img {
+.programs img {
 position: relative;
   width: 10%;
   height: auto;
 }
 
-#programs h2
+.programs h2
 {
     color:white;
     font-size:2vw;
 }
 
-#programs p
+.programs p
 {
      font-family: "Segoe UI", "Verdana", sans-serif;
     color:white;
@@ -133,4 +133,41 @@ cursor: pointer;
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+    #grow { 
+        padding: .5em 1em; 
+        text-decoration: none
+            
+            
+        
+            
+            ; }
 
+    #effect { 
+        box-sizing: border-box; 
+        width: auto;  
+        border: 10px solid white; 
+        }
+
+
+    .newClass { 
+    box-sizing: border-box;  
+  width: auto;
+  height: 550px;
+  border: 10px solid white;
+}
+
+
+
+    #effect2 { 
+        box-sizing: border-box; 
+        width: auto;  
+        border: 10px solid white; 
+        }
+
+
+    .newClass2 { 
+    box-sizing: border-box;  
+  width: auto;
+  height: 550px;
+  
+}
