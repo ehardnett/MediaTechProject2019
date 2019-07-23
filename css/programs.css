@@ -146,7 +146,8 @@ cursor: pointer;
     #effect { 
         box-sizing: border-box; 
         width: auto;  
-        border: 10px solid white; 
+        border: 10px solid white
+            ; 
         }
 
 
@@ -162,7 +163,8 @@ cursor: pointer;
     #effect2 { 
         box-sizing: border-box; 
         width: auto;  
-        border: 10px solid white; 
+        border: 10px solid white
+            ; 
         }
 
 
