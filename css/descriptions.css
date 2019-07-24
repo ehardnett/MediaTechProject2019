@@ -1,30 +1,40 @@
 .descriptions {
   margin: 0 auto;
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
-
+  background-size: 200% 100%; 
+  height: 200%;
+  width: 100%;
+  position: relative;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+  margin: auto;
+  padding: 10;
 }
 
-#unique_culture, #reach, #locations, #cutting_edge{
+#unique_culture, #locations, #reach, #cutting_edge{
 top: 0;
 bottom: 0;
 right: 0;
 left: 0;
 text-align: center;
 display: none; 
-font-size: 26px;
+font-size: 130%;
 font-weight: bold; 
 color: white;
-padding: 1px;
-height: 300px;
-border-radius: 10px;
-width: 700px;
-margin: 10 auto;
+padding: .5%;
+height: 200%;
+border-radius: 3.33%;
+width: 50%;
+margin: auto;
 float: left;
 
 }
 
 #unique_culture p, #reach p, #locations p, #cutting_edge p {
-  margin-bottom: 0px;
+  margin-bottom: 0%;
 }
 
 #unique_culture {
@@ -48,120 +58,83 @@ background-color: #2B89D0;
     
 background-color: white;
 border-radius: 10px;
-margin: 5px;
-height: 230px;
-width: 685px;
+margin: 1.5%;
+height: 200%;
+width: 97.8%;
 color: black;
 font-size: 20px;
 font-weight: lighter;
-bottom: 50px;
+bottom: 16.66%;
+position: relative;
+}
+
+.red_info {
+  background-color: white;
+  border-radius: 10px;
+  height: 200%;
+  width: 97.8%;
+  color: black;
+  font-size: 20px;
+  bottom: 16.66%;
+  font-weight: lighter;
+  position: relative;
 }
 
 .tagline_left {
-  width: 190px;
-  height: 200px;
+  width: 27.7%;
+  height: 100%;
   float: left;
-  padding-top: 30px;
   position: relative; 
   background: black;
   color: white;
-  font-size: 15px;
-  letter-spacing: 0.2em;
+  font-size: 75%;
   text-align: center;
   text-transform: uppercase;
   border-top-left-radius: 10px;
+  padding-bottom: 9%;
+  padding-top: 9%;
 }
 
-.tagline_left :after{
-  content: ' ';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-bottom: 26px solid white;
-  border-left: 95px solid transparent;
-  border-right: 95px solid transparent;
- 
-}
+
 
 .erg_info {
-  width: 480px;
-  height: 230px;
-  margin-top: 0px;
-  margin-left: 200px;
-  font-size: 16px;
+  width: 70%;
+  height: 100%;
+  margin-top: 0%;
+  margin-left: 30%;
+  font-size: 68%;
+  text-align: left;
+  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;  
+}
+
+.tech_info {
+  width: 70%;
+  height: 100%;
+  margin-top: 0%;
+  margin-left: 30%;
+  font-size: 68%;
   text-align: left;
   overflow-y: scroll;
   overflow-x: hidden;  
 }
 
-.tagline_right {
-  width: 200px;
-  height: 180px;
-  float: right;
-  padding-top: 50px;
+.red_tagline {
+  width: 27.7%;
+  height: 100%;
+  float: left;
+  margin-bottom: 5px;
   position: relative; 
   background: black;
   color: white;
-  font-size: 15px;
-  letter-spacing: 0.2em;
-  text-align: center;
-  text-transform: uppercase;
-  border-top-right-radius: 10px;
-}
-
-.tagline_right :after{
-  content: ' ';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-bottom: 26px solid white;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  
-}
-
-.tech_info {
-  width: 480px;
-  height: 230px;
-  margin-top: 0px;
-  margin-left: 200px;
-  font-size: 18px;
-  text-align: justify;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  margin-left: 5px;
-}
-
-.red_tagline {
-  width: 200px;
-  height: 180px;
-  float: left;
-  margin-bottom: 5px;
-  position: absolute; 
-  background: black;
-  color: white;
-  font-size: 15px;
+  font-size: 70%;
   letter-spacing: 0.2em;
   text-align: center;
   text-transform: uppercase;
   border-top-left-radius: 10px;
-  padding-top: 50px;
-}
-
-.red_tagline :after{
-  content: ' ';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-bottom: 10px solid white;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
+  padding-top: 3%;
+  padding-bottom: 15%;
 }
 
 
@@ -169,8 +142,8 @@ bottom: 50px;
 box-sizing: border-box; 
 background-color: white;
 color: black;
-height: 100;
-width: 685px;
+height: 120%;
+width: 98%;
 position: relative;
 overflow-x: hidden;
 white-space: wrap;
@@ -273,8 +246,8 @@ top: 0px;
 .states {
   position: absolute;
   width: inherit;
-  height: 200px;
-  left: 50px;
+  height: 96%;
+  left: 7.3%;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -282,8 +255,8 @@ top: 0px;
 #par img {
   float: left;
   border: 5px solid white;
-  width: 180px;
-  height: 180px;
+  width: 30%;
+  height: 80%;
   border-radius: 10px;
   top: inherit;
   position: relative;
@@ -292,86 +265,73 @@ top: 0px;
 
 #par {
   color: black;
-  font-size: 14px;
+  font-size: 60%;
   font-style: normal;
-  width: 635px;
-  height: 230px;
+  width: 92.7%;
+  height: 100%;
 }
 
 #par p {
-  height: 230px;
+  height: 100%;
 }
 
 .tagline_center {
   background-color: white;
   border: solid black;
   border-width: 3px 0px 3px 0px;
-  height: 180px;
-  width: 485px;
+  height: 70%;
+  width: 73%;
   position: relative;
-  margin-left: 200px;
-  top: 20px;
+  margin-left: 27%;
+  margin-right: 0%;
 }
 
 .scrollmenu {
-  position: absolute;
-  width: inherit;
-  height: 180px;
+  position: relative;
+  width: 100%;
+  height: 100%;
   overflow-y: hidden;
   overflow-x: scroll;
   white-space: nowrap;
+  top: 0%;
+  left: 0%;
 }
 
 .scrollmenu a {
   display: inline-block;
   position: relative;
   color: black;
-  padding: 14px;
+  padding: 1%;
   text-decoration: none;
 }
-
-/* .scrollmenu {
-  position: relative;
-  height: 150px;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  width: auto;
-  white-space: nowrap;
-  top: 10px;
-}
-
-.scrollmenu a {
-  display: inline-block;
-  position: relative;
-  color: black;
-  padding: 14px;
-  text-decoration: none;
-} */
 
 .hor-info-nav {
-  width: 485px;
-  height: 20px;
+  width: 73%;
+  height: 100%;
   position: relative;
   text-align: center;
 }
 
 .hNav {
   position: relative;
-  width: 485px;
-  height: 10px;
+  width: 73%;
+  height: 5%;
+  left: 10%;
   z-index: 9999;
   list-style-type: none;
   display: inline-block;
+  top: 0%;
+  text-align: center;
 }
 
 .hNav ul {
   position: relative;
   margin-top: 0px;
   margin-bottom: 0px;
-  left: 50px;
+  left: 10%;
   display: block;
-  height: 10px;
-  width: 300px;
+  height: 100%;
+  width: 61.8%;
 }
 
 .hNav ul li{
@@ -380,7 +340,7 @@ top: 0px;
   display: inline;
 }
 
-.hNav a{
+.hNav ul li a{
   position: relative;
   display: inline-block;
   width: 8px;
@@ -392,13 +352,13 @@ top: 0px;
   text-decoration: none;
 }
 
-.hNav a:hover{
+.hNav ul li a:hover{
   border-radius: 50%;
   background-color: rgb(113,135,133);
   text-decoration: none;
 }
 
-.hNav a.active{
+.hNav ul li a.active{
   border-radius: 50%;
   background-color: rgb(207,219,218);
   transform: scale(1.5);
@@ -407,46 +367,53 @@ top: 0px;
 
 .brands01 {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0%;
+  left: 0%;
 }
 
 .brands02 {
   position: absolute;
-  top: 10px;
-  left: 490px;  
+  top: 0%;
+  left: 105%;  
+
 }
 
 .brands03 {
   position: absolute;
-  top: 10px;
-  left: 980px;
+  top: 0%;
+  left: 210%;
+
 }
 
 .brands04 {
   position: absolute;
-  top: 10px;
-  left: 1470px;
+  top: 0%;
+  left: 315%;
+
 }
 
 .brands05 {
   position: absolute;
-  top: 10px;
-  left: 1960px;
+  top: 0%;
+  left: 420%;
+
 }
 
 .brands06 {
   position: absolute;
-  top: 10px;
-  left: 2450px;
+  top: 0%;
+
+  left: 525%;
+
 }
 
 #brand {
   color: black;
   font-size: 14px;
   font-style: normal;
-  width: 485px;
-  height: 180px;
+  width: inherit;
+  height: 100%;
+  position: relative;
 }
 
 
