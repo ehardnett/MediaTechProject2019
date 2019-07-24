@@ -1,177 +1,158 @@
-
 .programs img {
-position: relative;
-  width: 10%;
-  height: auto;
+    position: relative;
+    width: 10%;
+    height: auto;
 }
 
-.programs h2
-{
-    color:white;
-    font-size:2vw;
+.programs h2 {
+    color: white;
+    font-size: 2vw;
 }
 
-.programs p
-{
-     font-family: "Segoe UI", "Verdana", sans-serif;
-    color:white;
-    font-size:1vw;
+.programs p {
+    font-family: "Segoe UI", "Verdana", sans-serif;
+    color: white;
+    font-size: 1vw;
 }
-
-
 
 .internship {
-position: relative;
-box-sizing: border-box;
-
-background: #cf3434;
-float: left;
-  width: 50%;
-  height: auto;
-  padding: 30px;  
-  font-size: 16px;
-  cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    background: #cf3434;
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 30px;
+    font-size: 16px;
+    cursor: pointer;
     -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
- outline: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
 }
-
 
 .internship:hover {
-  background-color: darkred;
+    background-color: darkred;
 }
-
 
 /* The actual popup */
-.internship .popuptext {
-  visibility: hidden;
-  width: 100%;
-  height: auto;
-  background-color: #cf3434;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  left: 0%;
-  
-}
 
+.internship .popuptext {
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+    background-color: #cf3434;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    left: 0%;
+}
 
 /* Toggle this class - hide and show the popup */
+
 .internship .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
 }
-
-
-
-
-
-
 
 .associates {
-position: relative;
-box-sizing: border-box;  
-float: right;
-  width: 50%;
-  height: auto;
-  padding: 30px;  
- outline: none;
-cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+    height: auto;
+    padding: 30px;
+    outline: none;
+    cursor: pointer;
     background-color: #4d4bc1;
-       -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-
 
 .associates:hover {
-  background-color: darkslateblue;
+    background-color: darkslateblue;
 }
-
 
 /* Popup container - can be anything you want */
 
-
 /* The actual popup */
+
 .associates .popuptext2 {
-  visibility: hidden;
+    visibility: hidden;
     box-sizing: border-box;
-  width: 100%;
-  height: auto;
-  background-color: #4d4bc1;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  left: 0%;
-  
+    width: 100%;
+    height: auto;
+    background-color: #4d4bc1;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    left: 0%;
 }
 
 /* Toggle this class - hide and show the popup */
+
 .associates .show2 {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
 }
 
-
 /* Add animation (fade in the popup) */
+
 @-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
-    #grow { 
-        padding: .5em 1em; 
-        text-decoration: none
-            
-            
-        
-            
-            ; }
-
-    #effect { 
-        box-sizing: border-box; 
-
-        height: 500%;
-        border: 10px solid white
-            ; 
-        }
-
-
-    .newClass { 
-    box-sizing: border-box;  
-  width: auto;
-  height: 550px;
-  border: 10px solid white;
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
+#grow {
+    padding: .5em 1em;
+    text-decoration: none;
+}
 
+#effect {
+    box-sizing: border-box;
+    width: auto;
+    border: 10px solid white;
+}
 
-    #effect2 { 
-        box-sizing: border-box; 
-        width: auto;  
-        border: 10px solid white;
-        height: auto;
-        }
+.newClass {
+    box-sizing: border-box;
+    width: auto;
+    height: 550px;
+    border: 10px solid white;
+}
 
+#effect2 {
+    box-sizing: border-box;
+    width: auto;
+    border: 10px solid white;
+}
 
-    .newClass2 { 
-    box-sizing: border-box;  
-  width: auto;
-  height: 550px;
-  
+.newClass2 {
+    box-sizing: border-box;
+    width: auto;
+    height: 550px;
 }
