@@ -15,15 +15,7 @@ h1 span {
   width: 100%;
   height: 100%;
   padding: 30px;  
-<<<<<<< HEAD
- /* <!-- border: 10px solid Orange; --> */
-=======
-
-  border: 10px solid white;
-
-
-
->>>>>>> cc526fa492937980522db35324aa8398c6cc60d4
+ <!-- border: 10px solid Orange; -->
     
 }
 
@@ -33,55 +25,42 @@ h1 span {
 box-sizing: border-box;  
   width: 100%;
   height: 500px;
-<<<<<<< HEAD
   padding: 30px;
    background-color: #eeeeee;
-  /* border: 10px solid green; */
-=======
-
-  padding: 30px;  
-  border: 10px solid white;
-
-
-
->>>>>>> cc526fa492937980522db35324aa8398c6cc60d4
+  <!-- border: 10px solid green; -->
 }
 
 
-.programs {
+#programs {
   box-sizing: border-box;  
   width: 100%;
-<<<<<<< HEAD
-  height: 500px;
-  padding-top: 30px;
-  /* <!-- border: 10px solid green; --> */
+  height: 50vw;
+  padding-bottom: 200px;
 
-=======
-  height: 350px;
-  padding: 30px;  
-  border: 10px solid white;
->>>>>>> cc526fa492937980522db35324aa8398c6cc60d4
+  clear: both;
+  <!-- border: 10px solid green; -->
+
 }
+#effect {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50vw;
+  padding-top: 30px;
+  clear: both;
+  <!-- border: 10px solid green; -->
 
+}
 
 #timeline {
   box-sizing: border-box;  
   width: 100%;
   height: 100%;
-  padding: 30px;  
-  border: 10px solid white;
-}
 
-  padding: 50px;
+  clear: both;
   background-color: #eeeeee;
 
-<<<<<<< HEAD
-  /* <!-- border: 10px solid red; --> */
-=======
- border: 10px solid red; 
->>>>>>> cc526fa492937980522db35324aa8398c6cc60d4
+  <!-- border: 10px solid red; -->
   }
-
 
 
 #pictures {
@@ -89,15 +68,7 @@ box-sizing: border-box;
   width: 100%;
   height: 100%;
   padding: 30px;  
-<<<<<<< HEAD
-  /* <!-- border: 10px solid purple; --> */
-=======
-
-  border: 10px solid white;
-
-  border: 10px solid purple; 
-
->>>>>>> cc526fa492937980522db35324aa8398c6cc60d4
+  <!-- border: 10px solid purple; -->
 }
 
 h2
