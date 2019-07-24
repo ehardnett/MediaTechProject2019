@@ -18,17 +18,17 @@
 }
 
 #half-circle {
-  background-color: white;
-  opacity: 0;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border: 10px solid white;
-  border-bottom: 0;
+    background-color: white;
+    opacity: 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 10px solid white;
+    border-bottom: 0;
 }
 
 #half-circle:hover {
-  opacity: 0.2;
-  cursor: pointer;
+    opacity: 0.2;
+    cursor: pointer;
 }
 
 .orange_area {
@@ -49,6 +49,7 @@
   top: 0%;
   left: 27.5%;
 }
+
 .purple_area {
   width: 18.33%;
   height: 20%;
@@ -67,6 +68,3 @@
   top: 23%;
   right: 5.8%;
 }
-
-
-
