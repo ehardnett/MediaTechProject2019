@@ -71,6 +71,8 @@ $(document).ready(function($) {
     $('.hNav a').click(function() {
         var ref = $.attr(this, 'href');
         ref = '.' + ref.substring(1);
+        var integer = getComputedStyle(document.querySelector(ref)).left;
+        console.log(integer);
         $('.scrollmenu').animate({
             scrollLeft: getComputedStyle(document.querySelector(ref)).left
         }, 500);
