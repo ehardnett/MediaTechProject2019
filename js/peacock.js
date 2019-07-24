@@ -102,12 +102,14 @@ $('.hNav ul li a').removeClass('active');
 function showDiv(id, collapse1, collapse2, collapse3) {
     var x = document.getElementById(id);
     var y = document.getElementById("logo");
+    var z = document.getElementById("peacock");
     if (window.getComputedStyle(x).display === "none") {
         y.style.float = "left";
         x.style.display = "block";
     } else {
         x.style.display = "none";
         y.style.float = "none";
+
     }
     document.getElementById(collapse1).style.display = "none";
     document.getElementById(collapse2).style.display = "none";

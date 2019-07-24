@@ -15,7 +15,7 @@ h1 span {
   width: 100%;
   height: 100%;
   padding: 30px;  
- <!-- border: 10px solid Orange; -->
+ /* <!-- border: 10px solid Orange; --> */
     
 }
 
@@ -24,11 +24,10 @@ h1 span {
 #peacock {
 box-sizing: border-box;  
   width: 100%;
-  height: 20%;
+  height: 30%;
 
   padding: 30px;
-   background-color: #eeeeee;
-  <!-- border: 10px solid green; -->
+  /* <!-- border: 10px solid green; --> */
 }
 
 
@@ -39,7 +38,7 @@ box-sizing: border-box;
   padding-bottom: 200px;
 
   clear: both;
-  <!-- border: 10px solid green; -->
+  /* <!-- border: 10px solid green; --> */
 
 }
 #effect {
@@ -48,7 +47,7 @@ box-sizing: border-box;
   height: 50vw;
   padding-top: 30px;
   clear: both;
-  <!-- border: 10px solid green; -->
+  /* <!-- border: 10px solid green; --> */
 
 }
 
@@ -60,7 +59,7 @@ box-sizing: border-box;
   clear: both;
   background-color: #eeeeee;
 
-  <!-- border: 10px solid red; -->
+  /* <!-- border: 10px solid red; --> */
   }
 
 
@@ -69,7 +68,7 @@ box-sizing: border-box;
   width: 100%;
   height: 100%;
   padding: 30px;  
-  <!-- border: 10px solid purple; -->
+  /* <!-- border: 10px solid purple; --> */
 }
 
 h2
