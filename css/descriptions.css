@@ -48,7 +48,7 @@ float: left;
     background-color: #2B89D0;
 }
 
-.info {
+#unique_culture .info, #cutting_edge .info {
     
 background-color: white;
 border-radius: 10px;
@@ -56,9 +56,34 @@ margin: 1.5%;
 height: 200%;
 width: 97.8%;
 color: black;
-font-size: 20px;
+font-size: 100%;
 font-weight: lighter;
 bottom: 16.66%;
+padding-bottom: 2.5%;
+position: relative;
+}
+
+#reach .info {
+  background-color: white;
+border-radius: 10px;
+margin: 1.5%;
+height: 200%;
+width: 97.8%;
+color: black;
+font-size: 90%;
+font-weight: lighter;
+position: relative;
+}
+
+#locations .info {
+  background-color: white;
+border-radius: 10px;
+margin: 1.5%;
+height: 200%;
+width: 97.8%;
+color: black;
+font-size: 100%;
+font-weight: lighter;
 position: relative;
 }
 
@@ -68,8 +93,9 @@ position: relative;
   height: 200%;
   width: 95%;
   color: black;
-  font-size: 20px;
+  font-size: 90%;
   bottom: 16.66%;
+  padding-bottom: 10%;
   font-weight: lighter;
   position: relative;
 }
@@ -100,8 +126,8 @@ position: relative;
   text-align: center;
   text-transform: uppercase;
   border-top-left-radius: 10px;
-  padding-bottom: 10%;
-  padding-top: 9%;
+  padding-bottom: 11%;
+  padding-top: 10.25%;
   border-bottom-left-radius: 10px;
 }
 
@@ -140,7 +166,7 @@ position: relative;
   text-align: center;
   text-transform: uppercase;
   border-top-left-radius: 10px;
-  padding-top: 3%;
+  padding-top: 8.75%;
   padding-bottom: 15%;
 }
 
@@ -261,7 +287,7 @@ top: 0px;
 
 #par img {
   float: left;
-  border: 5px solid white;
+  border: 1% solid white;
   width: 30%;
   height: 80%;
   border-radius: 10px;
@@ -296,7 +322,7 @@ top: 0px;
 .scrollmenu {
   position: relative;
   width: 99%;
-  height:inherit;
+  height:70%;
   overflow-y: hidden;
   overflow-x: scroll;
   white-space: nowrap;
@@ -311,6 +337,8 @@ top: 0px;
   color: black;
   padding: 1%;
   text-decoration: none;
+  height: inherit;
+  width: 30%;
 }
 
 .hor-info-nav {
