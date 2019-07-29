@@ -33,19 +33,19 @@ float: left;
 }
 
 #unique_culture {
-    background-color: #F07030;
+    background-color: #EE6B30;
 }
 
 #reach {
-    background-color: #CD3E4C;
+    background-color: #E7442E;
 }
 
 #locations {
-    background-color: #6360AA;
+    background-color: #6D2B76;
 }
 
 #cutting_edge {
-    background-color: #2B89D0;
+    background-color: #1762A2;
 }
 
 #unique_culture .info, #cutting_edge .info {
@@ -167,7 +167,7 @@ position: relative;
   text-transform: uppercase;
   border-top-left-radius: 10px;
   padding-top: 8.75%;
-  padding-bottom: 15%;
+  padding-bottom: 12%;
 }
 
 
