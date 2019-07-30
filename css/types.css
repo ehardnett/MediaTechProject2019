@@ -75,7 +75,5 @@
 .onClickTextOverImage.show div {
     opacity: 1;
     padding: 8px;
-    overflow-y: scroll;
-    overflow-x: hidden;
     visibility: visible;
 }

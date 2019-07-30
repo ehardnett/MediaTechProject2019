@@ -20,7 +20,7 @@
     box-sizing: border-box;
     background: #009DD6;
     float: left;
-    width: 50%;
+    width: 48%;
     height: auto;
     padding: 30px;
     font-size: 16px;
@@ -40,16 +40,16 @@
 
 .internship .popuptext {
     visibility: hidden;
-    width: 100%;
+    width: 96%;
     height: auto;
     background-color: #009DD6;
     color: #fff;
     text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
+    border-radius: 0px;
+    padding: 20px;
     position: absolute;
     z-index: 1;
-    left: 0%;
+    left: -.2%;
 }
 
 /* Toggle this class - hide and show the popup */
@@ -64,7 +64,7 @@
     position: relative;
     box-sizing: border-box;
     float: right;
-    width: 50%;
+    width: 48%;
     height: auto;
     padding: 30px;
     outline: none;
@@ -93,11 +93,10 @@
     color: #fff;
     text-align: center;
     border-radius: 6px;
-    padding: 8px 0;
-    padding-bottom: 28px;
+    padding: 20px;
     position: absolute;
     z-index: 1;
-    left: 0%;
+    left: .1%;
 }
 
 /* Toggle this class - hide and show the popup */
@@ -142,7 +141,7 @@
 .newClass {
     box-sizing: border-box;
     width: auto;
-    height: 420px;
+    height: 520px;
     border: 10px solid white;
 }
 
@@ -155,5 +154,5 @@
 .newClass2 {
     box-sizing: border-box;
     width: auto;
-    height: 420px;
+    height: 520px;
 }
