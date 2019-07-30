@@ -30,10 +30,10 @@ h1 span {
     box-sizing: border-box;
     width: 100%;
     height: 500px;
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     /* <!-- border: 10px solid green; --> */
-    height: 350px;
-    padding: 30px;
+    height: 360px;
     border: 10px solid white;
 }
 
