@@ -18,7 +18,7 @@
 .internship {
     position: relative;
     box-sizing: border-box;
-    background: #cf3434;
+    background: #E7442E;
     float: left;
     width: 50%;
     height: auto;
@@ -42,7 +42,7 @@
     visibility: hidden;
     width: 100%;
     height: auto;
-    background-color: #cf3434;
+    background-color: #E7442E;
     color: #fff;
     text-align: center;
     border-radius: 6px;
@@ -69,7 +69,7 @@
     padding: 30px;
     outline: none;
     cursor: pointer;
-    background-color: #4d4bc1;
+    background-color: #6D2B76;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -77,7 +77,7 @@
 }
 
 .associates:hover {
-    background-color: darkslateblue;
+    background-color: rgb(89, 47, 95);
 }
 
 /* Popup container - can be anything you want */
@@ -89,11 +89,12 @@
     box-sizing: border-box;
     width: 100%;
     height: auto;
-    background-color: #4d4bc1;
+    background-color: #6D2B76;
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 8px 0;
+    padding-bottom: 28px;
     position: absolute;
     z-index: 1;
     left: 0%;
@@ -141,7 +142,7 @@
 .newClass {
     box-sizing: border-box;
     width: auto;
-    height: 550px;
+    height: 420px;
     border: 10px solid white;
 }
 
@@ -154,5 +155,5 @@
 .newClass2 {
     box-sizing: border-box;
     width: auto;
-    height: 550px;
+    height: 420px;
 }
