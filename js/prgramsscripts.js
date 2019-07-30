@@ -20,7 +20,7 @@ $(function grow() {
     function callback() {
         setTimeout(function() {
             $("#effect").removeClass("newClass");
-        }, 2000);
+        }, 1000);
     }
 
 });
@@ -35,6 +35,6 @@ $(function grow2() {
     function callback2() {
         setTimeout(function() {
             $("#effect2").removeClass("newClass2");
-        }, 2000);
+        }, 1000);
     }
 });
