@@ -45,7 +45,7 @@ float: left;
 }
 
 #cutting_edge {
-    background-color: #1762A2;
+    background-color: #237ABC;
 }
 
 #unique_culture .info, #cutting_edge .info {
@@ -111,8 +111,8 @@ position: relative;
   text-align: center;
   text-transform: uppercase;
   border-top-left-radius: 10px;
-  padding-bottom: 10%;
-  padding-top: 10%;
+  padding-bottom: 75px;
+  padding-top: 75px;
   border-bottom-left-radius: 10px;
 }
 #cutting_edge .tagline_left {
@@ -126,8 +126,8 @@ position: relative;
   text-align: center;
   text-transform: uppercase;
   border-top-left-radius: 10px;
-  padding-bottom: 14%;
-  padding-top: 14%;
+  padding-bottom: 85px;
+  padding-top: 85px;
   border-bottom-left-radius: 10px;
 }
 
@@ -166,8 +166,9 @@ position: relative;
   text-align: center;
   text-transform: uppercase;
   border-top-left-radius: 10px;
-  padding-top: 8.75%;
-  padding-bottom: 12%;
+  border-bottom-left-radius: 10px;
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
 
