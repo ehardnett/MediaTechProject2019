@@ -33,7 +33,7 @@
 }
 
 .internship:hover {
-    background-color: darkcyan;
+    background-color: darkblue;
 }
 
 /* The actual popup */
@@ -77,7 +77,7 @@
 }
 
 .associates:hover {
-    background-color: darkcyan;
+    background-color: darkblue;
 }
 
 /* Popup container - can be anything you want */
