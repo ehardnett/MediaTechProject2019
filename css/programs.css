@@ -31,6 +31,11 @@
     user-select: none;
     outline: none;
 }
+
+.internship:hover {
+    background-color: darkblue;
+}
+
 .internship .popuptext {
     visibility: hidden;
     width: 96%;
@@ -135,7 +140,7 @@
 .newClass {
     box-sizing: border-box;
     width: auto;
-    height: 800px;
+    height: 850px;
     border: 10px solid white;
 }
 
@@ -148,7 +153,7 @@
 .newClass2 {
     box-sizing: border-box;
     width: auto;
-    height: 800px;
+    height: 850px;
 }
 
 .container {
@@ -186,9 +191,9 @@
   
   .text {
     background-color:transparent;
+    font-family: "Segoe UI", "Verdana", sans-serif;
     color: white;
-    font-size: 15px;
-    padding: 3px;
+    font-size: 1vw;
     font-style: italic;
   }
   .popuptext2 img {
@@ -199,12 +204,14 @@
 }
 
 h3 {
-    font-size: 18px;
+        font-family: "Segoe UI", "Verdana", sans-serif;
+    color: white;
+    font-size: 1.5vw;
 }
 
 
 .container
 {
     width: 30%;
-    height: 30%;
+    height: auto;
 }
