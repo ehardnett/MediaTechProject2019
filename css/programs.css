@@ -33,7 +33,7 @@
 }
 .internship .popuptext {
     visibility: hidden;
-    width: 96%;
+    width: 94.5%;
     height: auto;
     background-color: #009DD6;
     color: #fff;
@@ -90,7 +90,7 @@
     padding: 20px;
     position: absolute;
     z-index: 1;
-    left: .1%;
+    left: 0;
 }
 
 /* Toggle this class - hide and show the popup */

@@ -114,6 +114,8 @@ position: relative;
   border-top-left-radius: 10px;
   padding-bottom: 75px;
   padding-top: 75px;
+  padding-left: 7px;
+  padding-right: 7px;
   border-bottom-left-radius: 10px;
 }
 #cutting_edge .tagline_left {
@@ -160,14 +162,14 @@ position: relative;
   position: relative; 
   background: black;
   color: white;
-  font-size: 65%;
+  font-size: 80%;
   letter-spacing: 0.2em;
   text-align: center;
   text-transform: uppercase;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  padding-top: 72px;
-  padding-bottom: 72px;
+  padding-top: 30px;
+  padding-bottom: 114px;
 }
 
 

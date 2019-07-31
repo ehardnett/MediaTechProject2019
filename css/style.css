@@ -158,6 +158,10 @@ input[data-description="rot3"]:checked~#timeline-descriptions-wrapper p[data-des
     display: block;
 }
 
+input[data-description="launch"]:checked~#timeline-descriptions-wrapper p[data-description="launch"] {
+    display: block;
+}
+
 @media (min-width: 1250px) {
     .input-flex-container {
         margin-left: 100px;
@@ -267,6 +271,10 @@ input[data-description="rot3"]:checked~#timeline-descriptions-wrapper p[data-des
 
 #rot3 {
     left: 540px;
+}
+
+#launch {
+    left: 630px;
 }
 
 #timeline .images_info {
