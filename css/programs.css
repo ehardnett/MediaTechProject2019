@@ -20,7 +20,7 @@
     box-sizing: border-box;
     background: #009DD6;
     float: left;
-    width: 48%;
+    width: 50%;
     height: auto;
     padding: 30px;
     font-size: 16px;
@@ -31,16 +31,9 @@
     user-select: none;
     outline: none;
 }
-
-.internship:hover {
-    background-color: darkblue;
-}
-
-/* The actual popup */
-
 .internship .popuptext {
     visibility: hidden;
-    width: 93.85%;
+    width: 95%;
     height: auto;
     background-color: #009DD6;
     color: #fff;
@@ -142,7 +135,7 @@
 .newClass {
     box-sizing: border-box;
     width: auto;
-    height: 700px;
+    height: 800px;
     border: 10px solid white;
 }
 
@@ -155,7 +148,7 @@
 .newClass2 {
     box-sizing: border-box;
     width: auto;
-    height: 700px;
+    height: 800px;
 }
 
 .container {
@@ -207,4 +200,11 @@
 
 h3 {
     font-size: 18px;
+}
+
+
+.container
+{
+    width: absolute;
+    height: auto;
 }
